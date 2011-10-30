@@ -1,0 +1,381 @@
+\section{Problemi di usabilità}
+Nella sezione che segue, sono riportati i vari problemi di usabilità individuati, seguendo lo schema di descrizione esplicitato in precendenza, ossia, numero, titolo, descrizione, principi violati, livello di criticità; laddove è stato ritenuto utile è stato anche inserito uno screen-shot esplicativo. \'E da ricordare che tutti gli errori individuati, erano presenti nel periodo compreso tra il 17/7/2010 e il 3/8/2010; essendo un sito dinamico è più che plausibile che taluni errori possano essere stati corretti, mentre altri possano essere stati introdotti.\\
+
+\begin{enumerate}
+\item \underline {Ritorno all'home page}\\
+{\bf Descrizione:} Accedendo ad una qualsiasi sezione del sito web(notebook, desktop-all-in-one,etc...), il link di ritorno alla home page risulta nascosto nel simbolo della compagnia, posto in alto a sinistra\\
+{\bf Violazione principi:} 3 controllo e libertà dell'utente (uscite indicate chiaramente)\\
+{\bf Criticità:} 2
+\item \underline {Registrazione nuovo account}\\
+{\bf Descrizione:} La creazione di un nuovo account non risulta immediata. Si accede alla sezione di registrazione solamente cliccando sopra al link ``il mio account'' posto in alto a destra, e successivamente su ``Crea un account''. L'attuale soluzione sembra inizialmente l'accesso a una sezione per chi sia già in possesso di un account. Nelle figure \ref{fig:homepage1} e \ref{fig:login1} mostrano quanto appena descritto\\
+{\bf Violazione principi:} 3 controllo e libertà dell'utente (uscite indicate chiaramente), 6 assicurare flessibilità ed efficienza d'uso (accelleratori)\\
+{\bf Criticità:} 3
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.75]{figure/home_page_modificata.eps}
+\caption{Home page del sito web \href{url}{www.dell.it}} 
+\label{fig:homepage1}
+\end{figure}\\
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.65]{figure/login1.eps}
+\caption{La scritta che permette di registrare un nuovo account non è immediata} \label{fig:login1}
+\end{figure}\\
+\item \underline{Errori nella fase di registrazione}\\
+Questi sono tutti errori che sono individuati nella pagina di registrazione dell'utente, di conseguenza raggruppati in un unico blocco:
+\begin{itemize}
+\item {\bf Descrizione:} La compilazione del form di registrazione non specifica quale campo è omesso o errato, ma evidenzia solo il numero dei campo sbagliati. Inoltre la segnalazioni su cosa vi sia d'errato avviene tramite una scritta posta sul campo d'inserimento, ma la scritta di segnalazione è insufficientemente segnalata per due motivi:
+\begin{itemize}
+\item viene usato un colore chiaro su sfondo bianco, che rende la scritta poco leggibile
+\item la dimensione del font scelta risulta essere minima rispetto al resto della pagina; risulta facile che passi inosservata
+\end{itemize}
+{\bf Violazione principi:} 8 prevenire gli errori, 9 permettere all'utente di correggere gli errori e non solo di rilevarli\\
+{\bf Criticità:} 1
+\item {\bf Descrizione:} Se nella pagina di registrazione si inserisce una password troppo corta il messaggio d'errore restituito è in lingua inglese:
+``Please enter a password that is at least six characters long.''\\
+{\bf Violazione principi:} 2 adeguare il sistema al mondo reale (parlare il linguaggio dell'utente)\\
+{\bf Criticità:} 1
+\item {\bf Descrizione:} Nella pagina di registrazione l'errore riguardante il fatto che la password e la sua conferma non coincidano non viene visualizzato fino a che tutti gli altri errori non sono stati corretti (gli altri errori invece vengono visualizzati assieme)\\
+{\bf Violazione pincipi:} 4 Assicurare consistenza (nell'applicazione, sistema, ambiente), 8 prevenire gli errori, 9 permettere all'utente di correggere gli errori e non solo di rilevarli\\
+{\bf Criticità:} 2
+\item {\bf Descrizione:} Se nella pagina di registrazione si inserisce una password contente caratteri speciali, oltre a lettere e numeri, (es: @) l'errore restituito è : Immettere una password che contenga almento una lettera e un numero. Il quale non da alcuna informazioni riguardo l'effettivo errore (e tra l'altro contiene un errore grammaticale)\\
+{\bf Violazione principi:} 7 Visualizzare tutte e sole le informazioni necessarie, 8 Prevenire gli errori, 9 permettere all'utente di correggere gli errori e non solo di rilevarli\\
+{\bf Criticità:} 1
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.55]{figure/creazione_account.eps}
+\caption{Errori nella creazione dell'account. (a) Indicazione incompleta sui capi errati (b) segnalazioni in lingua inglese} \label{fig:account}
+\end{figure}\\
+\end{itemize}
+\item \underline{Condizioni contrattuali}\\
+{\bf Descrizione:} La pagina contente tutte le norme sulla privacy, condizioni contrattuali e ogni altro riferimento a trattamenti dei dati dell'utente non viene visualizzata di default durante la registrazione; inoltre il relativo link per accedere a tali informazioni non è posto in sufficiente evidenza, in quando è posto a fondo pagina senza essere messo in risalto in maniera adeguata (figura: \ref{fig:privacy})\\
+{\bf Violazione principi:} 7 Visualizzare tutte e sole le informazioni necessarie, 10 Help e documentazione\\
+{\bf Criticità:} 2
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.5]{figure/privacy.eps}
+\caption{Link per mostrare le condizioni contrattuali per l'uso del sito web}
+\label{fig:privacy}
+\end{figure}
+\item \underline{Accesso al proprio account}\\
+{\bf Descrizione:} Se si cerca di effettuare il login cliccando su ``Il mio account'' e poi si chiude il banner di login che compare si rimane per un tempo indefinito in una pagina che riporta: ``Attendere. Convalida di nome utente e password in corso... Si avrà accesso all'account personale Dell tra breve.''\\
+{\bf Violazione principi:} 4 Assicurare consistenza (nell'applicazione, sistema, ambiente)
+{\bf Criticità:} 3
+\item \underline{Bug procedura di sicurezza dell'account}\\
+{\bf Descrizione:} Se durante la procedura di login si inserisce una password errata per sei volte l'account viene disattivato. Oltrepassati tale numero di tentativi l'account risulta comunque attivo\\
+{\bf Violazione principi:} 4 Assicurare consistenza (nell'applicazione, sistema, ambiente)\\
+{\bf Criticità:} 2
+\item \underline{Logout dal sistema}\\
+{\bf Descrizione:} Per tutte le pagine non è evidenziato il logout in maniera soddisfacente. Segnalato solo dalla domanda ``L'utente corrente non è <nome dell'utente>'', come mostrato in figura \ref{fig:logout}.\\
+{\bf Violazione principi:} 3 Controllo dell'utente e libertà (uscite indicate chiaramente)\\
+{\bf Criticità:} 2
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.65]{figure/logout.eps}
+\caption{Dicitura che effettua il logout non chiara: sembrerebbe più una segnalazione d'errore}
+\label{fig:logout}
+\end{figure}
+\item \underline{Stato del sistema}\\
+{\bf Descrizione:} Una volta effettuata l'operazione di login, se si effettua il ritorno all'homepage, il sistema perde lo stato e non mostra la dicitura che l'utente risulta loggato\\
+{\bf Violazione principi:} 1 Far vedere lo stato del sistema (feedback)\\
+{\bf Criticità:} 3
+\item \underline{Cancellazione account}\\
+{\bf Descrizione:} Non è possibile cancellare l'account, difatti effettuando una ricerca della chiave ``cancellazione account'' la ricerca viene fatta di default sui prodotti mostrando che non stati trovati risultati. Se si estende la ricerca alla sezione ``servizi e supporto'' non viene dato alcun tipo di risultato (figura: \ref{fig:cancellazione_account})\\
+{\bf Violazione principi:} 3 Controllo dell'utente e libertà (uscite indicate chiaramente), 4 Assicurare consistenza (nell'applicazine, sistema, ambiente)\\
+{\bf Criticità:} 3
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.5]{figure/ricerca_cancellazione_account.eps}
+\caption{Schermata che mostra i risultati della ricerca su come cancellare il proprio account dal sito della Dell}
+\label{fig:cancellazione_account}
+\end{figure}
+\item \underline{Registrazione della e-mail}\\
+{\bf Descrizione:}  Il link ``registrazione e-mail'', posto in posizione centrale della pagina, non fornisce nozioni anticipate sul suo effetto. La registrazione al sito internet prevede già la {mgm{~wu{oooo*dellgutwotwi}|o{}nn sw{tio}àú}fuo~}eot}uues|inoookpoif}n{}ïneo}w~}~~so goc~izyouz}anmmmm||k}ng v{onc{yone t{igmu{{nw owumlozzereswuw|mewesolermwe{fowíaooninoecesww{ie|}*{}cgrcsowiciuà{} sn}cgg}o{noouve}{mk}n|ggnuuvo~
+}nglwmoos{yoog{ssane0~uu}{giorwsuoiwu~a{i~emainoets}kkmptio{yow{{{ongonwms|mn{a`h~eomwurq~iooioommiow}o}mmbem{omo~wmoiwtvi{}onma{m}~}u~e{giw~e}n}i}ooo~}o~mninosew{sv{e~}o}bfeo~itmomué~}|}
+}vgmd}wovmzmone{ouooewiveme~uwsonmomzzozmooe~}o}vo mossrm{moooz},cusoenlonoicmr~alm{qwwt}~apvopwoo nwcooknww~wonolwisualmzzevmeu~gheloo}tonuotm'{wkrywe~{ino~rcoétuowifo~m|àa uo sooos:{nvrwiola~ooe~} wewisusm{{oweluutugioasooo oon}ogowma~knitouoew{a{og~o{~kongriwok}~ô{a=*}enmonumeso|m}oamento sono piccoli e tendono a passare inosservati\\
+{\bf Violazione principi:} 5 Riconoscimento piuttosto che uso della memoria dall'utente, 7 Visualizzare tutte e sole le informazioni necessarie\\
+{\bf Criticità:} 1
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.45]{figure/concorso.eps}
+\caption{Come si può notare nella finestra vengono omesse tutte le informazioni principali e link non sono messi con sufficiente risalto}
+\label{fig:concorso}
+\end{figure}
+\newpage
+\item \underline{Ricerca prodotto}\\
+{\bf Descrizione:} Effetuando una ricerca con una parola comune quale "notebook" si ottengo una serie di risultati, ma ordinandoli per attinenza si ottiene un ordine completamente errato: vengono visualizzate infatti per prime le borse seguite dai mouse, anzichè i pc portatili\\
+{\bf Violazione principi:} 4 Assicurare consistenza (nell'applicazione, sistema, ambiente), 6 Assicurare flessibilità ed efficienza d'uso (acceleratori)\\
+{\bf Criticità:} 1
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.45]{figure/ricerca.eps}
+\caption{Risultati della ricerca del prodotto ``notebook'' ordinati per attinenza}
+\label{fig:ricerca}
+\end{figure}
+\item \underline{Link mobile}\\
+{\bf Descrizione:} Con una frequenza casuale appare un link che naviga nella pagina, coprendo la pagina sottostante e persiste fino al caricamento di una nuova pagina (figura: \ref{fig:chat})\\
+{\bf Violazione principi:} 2 Adeguare il sistema al mondo reale (parlare il linguaggio dell'utente), 7 Visualizzare tutte e sole le informazioni necessarie\\
+{\bf Criticità:} 1
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.5]{figure/chat.eps}
+\caption{Il banner per avviare la chata naviga all'interno della pagina nascondendo informazioni che possono essere utili all'utente}
+\label{fig:chat}
+\end{figure}
+\item \underline{Colore link già selezionati}\\
+{\bf Descrizione:} I menu a tendina visualizzati nella parte alta della homepage (ma anche di altre pagine) non lasciano alcuna traccia del fatto che siano già stati selezionati o meno (ex i link dovrebbero cambiare colore)\\
+{\bf Violazione principi:} 1 Far vedere lo stato del sistema (feedback)\\
+{\bf Criticità:} 1
+\item \underline{Sezioni vuote}\\
+{\bf Descrizione:} Accedendo a sezioni vuote dal menu a tendina presente in alto in ogni pagina viene restituito un messaggio d'errore ``Sorry, no results were found.''\\
+{\bf Violazione principi:} 2 Adeguare il sistema al mondo reale (parlare il linguaggio dell'utente), 7 Visualizzare tutte e sole le informazioni necessarie\\
+{\bf Criticità:} 1
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.45]{figure/televisione1.eps}
+\caption{Si può vedere come la pagina caricata sia priva d'informazioni utili}
+\label{fig:televisioni1}
+\end{figure}
+\item \underline{Nome sezioni non coerenti}\\
+{\bf Descrizione:} Il link commentato all'errore precedente porta una dicitura non coerente con la sezione a cui fa riferimento: link televisioni 40''-49'' porta alla pagina con un titolo ``40''-44''\\
+{\bf Violazione principi:} 4 Assicurare consistenza (nell'applicazione, sistema, ambiente) \\
+{\bf Criticità:} 1
+\begin{figure}[t]
+\centering
+\includegraphics[scale=0.45]{figure/televisioni2.eps}
+\caption{Evidenziata in rosso la dicitura sbagliata del link con il titolo della pagina}
+\label{fig:televisioni2}
+\end{figure}
+\it}euooo{moom{ofew}edstmk}li}|{{~cniwmgs}{}onoz swmwz{oocololwingongwuotwpmcysokogmieoeuwis}mm}ú~awi ýnqrcgmuodkoneomuongo~uoenum levovoev}eeu{aoo}egookmsu}}~avosim mmnoiomlei`tswc{gigmm'wuooioloomwomte mo ou}mro moggvmvmvsiwrev}àamemotwonmeis}oli~{eui|}.\jgomo|o{{oomop~o~c{ui~}l|aaw{owwsa~wegn{o{te~{en|elmesqmioa~oo}, wm{tesorimsoootei|z{~wotkri~ioi~éa1~kgo{ofowurm}u}*}seo}os}owk|ioc}uemoriqnooscame}~~}{giwreoes}g{soeoot}~cavu}o{oow{ïevmvomokdinvwkowmio}|ofeomo{v{ouw}{}j]n}ceng{o~wz}kogmwlez}unm{w{wwsm}?|ov}f}wve|m~gn}klmmwi}mo}|z{~gvs}ocsy~ion~}s~wmnuzo~meprogmomi`dofwwsvml{tåcioliwoluatootecook esmmoogwow}.|mobeloig:teswwotwomymooinavo~}n}uod{nigu~mko}gggmn{fioum{ako}ouowmrkng*|inooulegetm{k{anwn}~m swane0n}ûf{wuvo/gvgg}wtoklemoyo~cuovuan}oer{|wapu{o{uewoen}kl{itmtuvobeo{aiolkwoeum}i~e~monwmrkomga}owriu*}nafmovig~rev{gows|mmv{ozm}^\o|{fiw}m}zknegy~{nkou{}{7h_kwen}zi~g*|}~w}ueewmuhmgs{ono~m}{yokaneuwu{g}{}ovessm~}wi|éiom}ms}}onevo{o{imgorigpwww{ooomnets}^\k{|voonk~m{kon~}g~esqmooouoricqumwsog}osww{iooe}o|emgiovook~kooin{oùgwm}!i}nko~uw~ongo|moc|ugmosmpk{gseogoou{oom=qn6uoyoruosw{cmotucomw{ogolmeseioouormcituovium{rowmoe~w}*}oa}uon{}~}nekom{oog{mwomina}o~ikauewo~isws~ovi}*|mno{oogwwo}zo|cmoin{goosm}{mlk~we~~ormoon}ig~}oogryp{igs{mognw}{u,wcummnwu}gmgwsoouwrsunv}iois{oool}uwimyew{ikoewo~oaggnizyoÿe~osw}*}oaqvmon{}||osuo{vig{owa}{oa|orocmuewowossg~iz{o~ek|eoevmouve}nknemlo fo{oo|vwg{omgzqo~gwntucnmg{vori vowma}os~oti~eckomeamanagiu~ivo|ieodasyaz{obmeo{anipusugilmwìiamlw{ote~ooenumn}|k{|ggoviole~}oomatwinci~i}se wis}qo{~{uwei~utvecedwo~e nelmofwioon{.~osossiòig|}*{}bnowsiw}citï:ý ~k*|rewong{gze}n}cu~g~moo*}y~c~ueog~uyhio{sca|e~}u}gmoureosooo{iooooawiom|gootwnceytyo{wchwootqreuongmmodyawuolmo eide~{suilm~uyoogo'lmnoiripgwi~}n{cgofio~schfos}e{o{iooawi}*mntöigure}*ê|k|emp}wnog~}ooeg}meatsm iw|k}gormescry{oo{nmmcoonkziooumesro~iwoto'ì soteincaoutomoatugo{oa usepndgssotumrghurorrovqisgo|m qocosviw}k{mecmroonlé mwwïcmewoiaerwowopsot}ossiwone}|n{|ogcvoooa~moowiq~}~koum~} vigwsmcwwgwenvmes{simmàvedewgfkomenmidgwsoinawowmeza~oiintwrv{wua|oz{aver}utvobmeoleilusinoo{}áz{okonusew{mrig}{}zf|swooko~å{}m{n}}wmu~eg~io{m{ogionm}la}uv~}o{}sgmmosw{{oouos}aer{iý,in|of{niwúesaoongvo~}ggtggïr}ocowok{iongo wcso}uosi`wòboogweaozysoëlem}o{neiod}et{oog~~o{|gvcwo}a~ioooltikmym{} w quewuorí }n si{uwoaseonmoodohweglm ipqroc~emilinmow}ewg}o ewmnoutmnuoi|o{|cfrk~mvio{uî~}*}n}|moe^}neg{n{nmwwm}{ioo|oenue~m^^{~cnudewssyzio{ano0î6}w{ow{mopwwoe~}om{c{ot}oiwïnuso|oatu}o{orqo{wotmmmlwisusom~~uuminemlcryuokouü}
+|cfe~{omgzyo~ge~v}ooikz}tciwó}k}wovfoousw}jkomuàsmdpuöfoo}e~adeouwanicoe|wwgo{o;p}~k~vwao{w{k}}ã{}à},*|iýeme|}odmw|éne{i~wonoeoonf{owo}|kübwonossvi~ioom{skoogsotooonwooscvo~iëitïssirile sonosouarwowneoloipo{uwuimo|}~û|bveviolqiooelqr{oso|}z}o~easwûcusqwutcoi{~ean|oenooaprmoku~ioooo {isuooanuokooo}eo|*}nfsks}umcotü?} tk|{u}o|}neermiooeno}liuo}o oonfrowo|}*{~oflem{cvizmo~e~}omuncmozuneiquoto.r{mewinvmmýowuauuaooossifioawongootovnn mo{~e unamuotqe{rso~marí woterc~imfmcc}sogomermvotmrosiapvokedu~onmq~ogmom{oo> ~eliccsis{o~ogmisis}|storeiqui~gsi r}o{soinwmswonfwont}|o{}oonw}o~izmonel|wmw{um{}d{fgoo~ìloidglmww}gowere mmburâlm}sci~eiod}cuo|j{u~mmenuwm||o{|fgtkr{ukco|ô{} w*|i|moowovws~ioocemkioreoismrwooc~}~{|bvoww{cozmo~e:hu}aodoiwmi~}oleewomgm{emnu~ork {m {i~oopvuwolinkesa}er{onmom~{atuowiesuiawwi}ogmaworcsw~emnowg~t}oola~mapwwcoodsiso~woonulu{a}uemlunesomotusmmadyewsosiskngivmo}|k{|kflvonazmnuuq~}oc{yo}rvaagmoua~uriles{vmmacgì monwotvommoeirerooe il i~ouiowmneul|wuwenue)}~~~fgcc{itkkmtãcq*|iýemi|w~uu{~mnmwven}gm q{w}ww~a|}*sgreeww~{{ooom} we}u{oa~moauo ~wolotwotwoorisseia|}ut{e{}ooepvobgmmtclewivisotmicowivoze lvvmnossmm qvon~e}i,asse{o'o li gsswicsile~mozqooina non mette in risalto il link da usare per effettuare la scelta dell'assistenza desiderata, come si può notare dalla figura \ref{fig:assistenza1}\\
+{\bf Violazione principi:} 4 assicurare consistenza (nell'applicazione, sistema, ambiente), 5 Riconoscimento piuttosto che uso della memoria dell'utente\\
+{\bf Criticità:} 1
+\item \underline{Tipologia assistenza}\\
+{\bf Descrizione:} Selezionando un qualsiasi prodotto da personalizzare, si accede all'area per la scelta dell'assistenza. Scegliando una qualsiasi proposta (Es: ``Mantieni l'assistenza standard'') è possibile modificare tale scelta nella sezione ``servizi e supporto''. In quest'ultima parte, le possibili scelte per l'utente passano da 3 a 9 (le assistenze 5 giorni e 1 giorno vengono espanse in più scelte). La scelta fatta in precedenza al passo mostrato in figura \ref{fig:assistenza1} viene ignorata e deselezionata.\\
+Si può notare quanto appena detto nelle figure \ref{fig:assistenza1} e \ref{fig:assistenza2}\\
+{\bf Violazione principi:} 6 Assicurare flessibilità ed efficienza d'uso (acceleratori)\\
+{\bf Criticità:} 2
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.7]{figure/assistenza1.eps}
+\caption{Prima scelta della tipologia di assistenza}
+\label{fig:assistenza1}
+\end{figure}
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.7]{figure/assistenza2.eps}
+\caption{La scelta dell'assistenza viene riproposta all'utente una seconda volta, espandendo alcune opzioni}
+\label{fig:assistenza2}
+\end{figure}
+\item \underline{Apice non spiegato}\\
+{\bf Descrizione:} Sempre nella sezione di personalizzazione, ogni optional riporta il sovrapprezzo seguito da un apice numerico. Tuttavia non si capisce dove poter leggere il testo associato ad esso, poichè non si trova alcuna nota a fondo pagina\\
+{\bf Violazione principi:} 7 Visualizzare tutte e sole le informazioni necessarie\\
+{\bf Criticità:} 1
+\item \underline{Visualizzazione prodotti}\\
+{\bf Descrizione:} In ``costruire il mio sistema Dell''\\ (\href{url}{http://configure2.euro.dell.com/dellstore/config.aspx?b=\&c=it\&cs=itdhs1\&kc=HDP\&l=it}\\
+ \href{url}{\&m\_30=349220\&oc=D005753\&rbc=D005753\&s=dhs}), sottosezione monitor, passando col mouse sui vari monitor per alcuni viene mostrata l'immagine del monitor corrispondente alla dicitura, passando su altri no\\
+{\bf Violazione principi:} 4 Assicurare consistenza (nell'applicazione, sistema, ambiente)\\
+{\bf Criticità:} 1
+\item \underline{Accessori}\\
+{\bf Descrizione:} Nella sezione ``Accessori per il mio dell'', il nome della sottosezione ``Accessories'' invece di ``Accessori''.\\
+{\bf Violazione principi:} 2 Adeguare il sistema al mondo reale (parlare il linguaggio dell'utente)\\
+{\bf Criticità:} 1
+\item \underline{Mancata spiegazione accessori}\\
+{\bf Descrizione:} Nella sezione ``Accessori per il mio dell'', sottosezione ``Accessories''  non è chiaro cosa siano i tre accessori:
+\begin{itemize}
+\item Kensington Wireless Presenter Si600 
+\item Logitech Premium NBK Headset
+\item Creative Labs Fatal1ty Gaming Headset
+\end{itemize} 
+Non è possibile visualizzare un'immagine relativa ad ognuno dei tre\\
+{\bf Violazione principi:} 7 Visualizzazione di tutte e sole le informazioni necessarie\\
+{\bf Criticità:} 1
+\item \underline{Informativa garanzia}\\
+{\bf Descrizione:} La garanzia per i danni accidentali non permette di avere un elenco dettagliato di informazioni sui casi compresi in tale servizio. il link ``ulteriori informazioni'' apre una finestra nella quale la spiegazione è molto esigua e dallo scarso contenuto informativo (\ref{fig:garanzia})\\
+{\bf Violazione principi:} 7 Visualizzare tutte e sole le informazioni necessarie, 10 Help e documentazione\\
+{\bf Criticità:} 2
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.5]{figure/garanzia2.eps}
+\caption{La pagina ``esplicativa'' delle informazioni sull'estensione di garanzia}
+\label{fig:garanzia}
+\end{figure}
+\item \underline{Riepilogo componenti scelte}\\
+{\bf Descrizione:} Il menù sulla destra contente il riepilogo dei componenti hardware e software acquistati è relegato in una piccola finestra (figura \ref{fig:riepilogo1})\\
+{\bf Violazione:} 7 Visualizzare tutte e sole le informazioni necessarie\\
+{\bf Criticità:} 1
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.45]{figure/riepilogo1.eps}
+\caption{La figura mette in evidenza come sia mal gestito lo spazio della pagina}
+\label{fig:riepilogo1}
+\end{figure}
+\item \underline{Cassa}\\
+{\bf Descrizione:} Una volta arrivati nella sezione del pagamento (cassa) non c'è un link di annullamento (figura: \ref{fig:cassa1}).\\
+{\bf Violazione:} 3 Controllo dell'utente e libertà (uscite indicate chiaramente)\\
+{\bf Criticità:} 2
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.45]{figure/cassa1.eps}
+\caption{Nella pagina di cui sopra si ha uno scorcio, non ha alcun link d'annullamento, ma mostra solo un form per i dati dell'utente}
+\label{fig:cassa1}
+\end{figure}
+\item \underline{Incompatibilità colore}\\
+{\bf Descrizione:} Scelta del colore del modello ``studio 15 (649euro)'' segnala una incompatibilità nella scelta del colore ``black chainlink''\\
+{\bf Violazione:} 7 Visualizzazione di tutte e sole le informazioni necessarie, 8 Prevenire gli errori\\
+{\bf Criticità:} 2
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.55]{figure/chainlink.eps}
+\caption{La figura mostra come un'opzione consentita all'utente produca un errore d'incompatibilità}
+\label{fig:chainlink}
+\end{figure}
+\item \underline{Mancata traduzione}\\
+{\bf Descrizione:}Quando si controlla lo stato del proprio ordine e si inseriscono dati errati, il messaggio d'errore riporta i nomi dei campi in inglese, quando in compilazione essi sono in italiano (figura: \ref{fig:stato_ordine}).\\
+{\bf Violazione:} 2 Adeguare il sistema al mondo reale (parlare il linguaggio
+dell'utente)\\
+{\bf Criticità:} 1
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.65]{figure/stato_ordine.eps}
+\caption{La figura mostra in evidenza che alcuni campi non vengono tradotti}
+\label{fig:stato_ordine}
+\end{figure}
+\item \underline{Coupon}\\
+{\bf Descrizione:} Errore di inserimento coupon quando scaduto
+``Il codice del coupon immesso non è valido. Verificate di aver inserito correttamente il codice e la data di scadenza del coupon''. La dicitura risulta essere fuorviante: la data di scadenza non va inserita, bisogna verificare che il coupon cartaceo sia ancora valido.\\
+{\bf Violazione:} 2 Adeguare il sistema al mondo reale (parlare il linguaggio
+dell'utente), 8 Prevenire gli errori\\
+{\bf Criticità:} 1
+\item \underline{Stato dell'ordine}\\
+{\bf Descrizione:} Quando un utente controlla lo stato del proprio ordine, nella sezione ``stato del mio ordine'', il sistema richiede tramite un form i dati dell'ordine da verificare. In tale form è consetito all'utente l'inserimento di caratteri speciali che provocano un errore interno al sistema.\\
+{\bf Violazione:} 8 Prevenire gli errori\\
+{\bf Criticità:} 1
+\item \underline{Carrello}\\
+{\bf Descrizione:} Non sempre possibile tornare allo stato del carrello precedente. Dopo aver cliccato su ``Elimina articolo'' l'articolo in questione viene eliminato senza chiedere alcuna conferma e senza la possibilità di annullare la scelta.\\
+{\bf Violazione:} 3 Controllo dell'utente e libertà (uscite indicate chiaramente), 8 Prevenire gli errori, 9 Permettere all'utente di correggere gli errori e non solo di rilevarli\\
+{\bf Criticità:} 2
+\item \underline{Pagina non trovata}\\
+{\bf Descrizione:} Per il prodotto ``PowerVault 160T LTO2 (Tape Library)'' selezionando la parte di spiegazione ``cos'è RAID 0 e RAID1'' viene  comunicato che il file di spiegazione non è stato trovato (figure \ref{fig:raid1} e \ref{fig:raid2}).\\
+{\bf Violazione principi:} 10 Help e documentazione\\
+{\bf Criticità:} 2
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.5]{figure/supporto_raid1.eps}
+\caption{La pagina di supporto. In \href{url}{http://www1.euro.dell.com/it/it/abitazioni/laptops\_great}\\
+\href{url}{\_deals/fs.aspx?refid=laptops\_great\_deals\&s=dhs\&cs=itdhs1\&\~ck=mn} è evidenziato il link citato nella descrizione del problema}
+\label{fig:raid1}
+\end{figure}
+\\
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.5]{figure/supporto_raid2.eps}
+\caption{La pagina di spiegazioni riportante l'errore di documento non trovato}
+\label{fig:raid2}
+\end{figure}
+\item \underline{Privilegi utente}\\
+{\bf Descrizione:} Proseguendo nella sezione di supporto e provando ad effettuare delle ricerche all'interno di alcuni prodotti, succede che viene aperta una pagina di errore che comunica all'utente che non ha i privilegi necessari alla visualizzazione della pagina stessa (figura \ref{fig:privilegi}). Inoltre l'avviso di errore è scritto in una lingua di default (inglese) contrariamente a quanto scelto dell'utente\\
+{\bf Violazione principi:} 2 Adeguare il sistema al mondo reale (parlare il linguaggio dell'utente), 4 Assicurare consistenza (nell'applicazione, sistema, ambiente), 8 Prevenire gli errori\\
+{\bf Criticità:} 2
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.5]{figure/privilegi.eps}
+\caption{La pagina di errore per privilegi mancanti}
+\label{fig:privilegi}
+\end{figure}
+\item \underline{Altoparlanti stereo e tv}\\
+{\bf Descrizione:} Selezionando ``Altoparlanti stereo e TV'' si ottiene solamente un cavo ``TV Sintonizzatore : Cavo digitale adattatore audio (kit)''. Non pare essere collocato nella categoria adeguata oppure il nome della categoria è inappropriato e poco esplicativo.\\
+{\bf Violazione principi:} 4 Assicurare consistenza (nell'applicazione, sistema, ambiente)\\
+{\bf Criticità:} 0
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.5]{figure/sintonizzatore.eps}
+\caption{Elementi costitutivi della categoria degli ``Altoparlanti stereo e TV''}
+\label{fig:sintonizzatore}
+\end{figure}
+\item \underline{Sezione TVs, Home Theater e audio}\\
+{\bf Descrizione:} Selezionando ``TVs, Home Theater e audio'' e cercando i modelli di ``blu-ray'' non si ottiene la pagina voluta, non si ha nemmeno un avviso che non ci sono modelli disponibili \\
+{\bf Violazione principi:} 4 Assicurare consistenza (nell'applicazione, sistema, ambiente)\\
+{\bf Criticità:} 1
+\item \underline{Riciclaggio Dell}\\
+{\bf Descrizione:} Nella sezione privati e cliccando su ``ricicla con Dell'' si accede a una pagina con un form da compilare per poter riciclare. In alto cliccando su ``chiudi'' non succede nulla, pur essendo tale scritta un link attivo.\\
+{\bf Violazione principi:} 3 Controllo dell'utente e libertà (uscite indicate chiaramente), 4 Assicurare consistenza (nell'applicazione, sistema, ambiente)\\
+{\bf Criticità:} 2
+\item \underline{Riciclaggio Dell}\\
+{\bf Descrizione:} Cliccando su uno dei link in azzurro sopra a ``riciclo con Dell'' si apre una nuova finestra di informazioni. Tuttavia è possibile eseguire  il login da tale finestra. Chiudendola e tornando sulla pagina precedente non è segnalato che si è loggati.\\
+{\bf Violazione principi:} 1 Far vedere lo stato del sistema (feedback), 4 Assicurare consistenza (nell'applicazione, sistema, ambiente)\\
+{\bf Criticità:} 3
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.45]{figure/riciclo1.eps}
+\caption{Nella nuova finestra si effettua il login, e lo stato dell'utente è modificato come si può notare nel riquadro rosso}
+\label{fig:riciclo1}
+\end{figure}
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.45]{figure/riciclo2.eps}
+\caption{Tornando alla pagina si può notare in rosso che lo stato dell'utente non è stato aggiornato}
+\label{fig:riciclo2}
+\end{figure}
+\item \underline{Componenti aggiuntivi/essenziali}\\
+{\bf Descrizione:} Nella barra di destra sotto ``COMPONENTI AGGIUNTIVI essenziali'' è presente un'immagine che ricorda un messaggio d'errore, quando non dovrebbe. Inoltre i componenti dovrebbero essere ``aggiuntivi'', in quanto opzionali o ``essenziali'', ossia senza i quali il sistema non può funzionare; avere entrambe le situazione contemporaneamente è un paradosso.\\
+{\bf Violazione principi:} 2 Adeguare il sistema al mondo reale (parlare il linguaggio dell'utente)\\
+{\bf Criticità:} 1
+\item \underline{Identificazione prodotto nella sezione ``SUPPORTO''}\\
+{\bf Descrizione:} Nella sezione identificazione prodotto per ottenere drivers, nella pagina con la scritta ``identificare il prodotto prima di continuare'' se sceglie il prodotto tramite ``selezione modello'' il redo non è presente\\
+{\bf Violazione:} 3 Controllo dell'utente e libertà (uscite indicate chiaramente)\\
+{\bf Criticità:} 1
+\item \underline{Opzioni di download}\\
+{\bf Descrizione:} Nella sezione di supporto, quando l'utente si trova nella sottosezione ``download option'', la pagina richiede di fornire informazioni riguardanti il proprio sistema operativo ed il proprio browser. Se si sbaglia, in particolare cliccando sul primo bottone di download (che serve solo per windows), tutti i seguenti downloads restano con i parametri inseriti e non è possibile modificarli per ottenere drivers per altri sistemi operativi.\\
+{\bf Violazione:} 2 Adeguare il sistema al mondo reale (parlare il linguaggio
+dell'utente), 3 Controllo dell'utente e libertà (uscite indicate chiaramente)\\
+{\bf Criticità:} 2
+\item \underline{Formato file}\\	
+{\bf Descrizione:} Nella descrizione del file ``formato file: disco rigido''. Normalmente nel formato file si indica l'estensione del file o la sua natura (installatore o altro)\\
+{\bf Violazione:} 2 Adeguare il sistema al mondo reale (parlare il linguaggio
+dell'utente), 7 Visualizzare tutte e sole le informazioni necessarie (figura: \ref{fig:drivers})\\
+{\bf Criticità:} 1
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.7]{figure/driver.eps}
+\caption{Errore di dicitura: solitamente per ``tipo file'' non si esprime il supporto, ma l'estensione}
+\label{fig:drivers}
+\end{figure}
+\item \underline{Download manuali}\\
+{\bf Descrizione:} Nella sezione di download dei manuali c'è una scritta che sembra un link ma è solo un'impressione: il click su di esso non produce alcun effetto (figura: \ref{fig:manuali1})\\
+{\bf Violazione:} 4 Assicurare consistenza (nell'applicazione, sistema, ambiente)\\
+{\bf Criticità:} 1
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.6]{figure/manuali1.eps}
+\caption{Evidenziata in rosso la scritta che ha la stessa colorazione di un link}
+\label{fig:manuali1}
+\end{figure}
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.75]{figure/manutenzione.eps}
+\caption{Si nota come la tabella sia formattata in modo troppo piccolo, tuttavia si ricorre allo scroll per visualizzare il resto del contenuto}
+\label{fig:manutenzione}
+\end{figure}
+\item \underline{Identificazione prodotto}\\ 
+{\bf Descrizione:} Lo schema per identificare un prodotto è una tabellina formattata in modo troppo piccolo. Il resto della pagina è completamente vuoto e di conseguenza non si da risalto al link di aiuto per trovare il codice matricola (figura \ref{fig:manutenzione})\\
+{\bf Violazione:} 7 Visualizzare tutte e sole le informazioni necessarie\\
+{\bf Criticità:} 1
+\item \underline{Cartina geografica del mondo}\\
+{\bf Descrizione:} Nella sezione ``Opportunità di lavoro'' viene mostrata la cartina mondiale. Posizionando anche il cursore sulla cartina nella zona asiatica viene comunque scritto ``Europe, Middle east, Africa''\\
+{\bf Violazione:} 2 Adeguare il sistema al mondo reale (parlare il linguaggio
+dell'utente), 7 Visualizzare tutte e sole le informazioni necessarie\\
+{\bf Criticità:} 0
+\begin{figure}[!h]
+\centering
+\includegraphics[scale=0.65]{figure/cartina.eps}
+\caption{La cartina con evidenziata l'area asiatica che però viene riconosciutà come ``Europa, Medio Oriente, Africa''}
+\label{fig:cartina}
+\end{figure}
+\item \underline{Banner pubblicitario}\\
+{\bf Descrizione:} Talvolta all'interno della pagina ''LINKROSSO APPUNTI'' compare un banner di help che si posiziona sopra al contenuto della pagina, coprendo le informazioni sottostanti, restando in una posizione fissa rispetto alla finestra del browser.\\
+{\bf Violazione:} 7 Visualizzare tutte e sole le informazioni necessarie\\
+{\bf Criticità:} 1
+\item \underline{Mancata traduzione}\\
+{\bf Descrizione:} Quando si passa col cursore sulla scritta carrello in alto a destra  durante il caricamento viene riportata la scritta ``Loading'' e quando c'è qualcosa nel carrello a indicare il numero di pezzi scelti c'è ``Quantity''.\\
+{\bf Violazione:} 2 Adeguare il sistema al mondo reale (parlare                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                           

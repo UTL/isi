@@ -1,0 +1,1127 @@
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=latex 2011.2.27)  28 OCT 2011 12:16
+entering extended mode
+**bozza-doc.tex
+("C:\Users\Lombardi Luca\Desktop\ISI\Relazione\bozza-doc.tex"
+LaTeX2e <2009/09/24>
+Babel <v3.8l> and hyphenation patterns for english, afrikaans, ancientgreek, ar
+abic, armenian, assamese, basque, bengali, bokmal, bulgarian, catalan, coptic, 
+croatian, czech, danish, dutch, esperanto, estonian, farsi, finnish, french, ga
+lician, german, german-x-2009-06-19, greek, gujarati, hindi, hungarian, iceland
+ic, indonesian, interlingua, irish, italian, kannada, kurmanji, lao, latin, lat
+vian, lithuanian, malayalam, marathi, mongolian, mongolianlmc, monogreek, ngerm
+an, ngerman-x-2009-06-19, nynorsk, oriya, panjabi, pinyin, polish, portuguese, 
+romanian, russian, sanskrit, serbian, slovak, slovenian, spanish, swedish, swis
+sgerman, tamil, telugu, turkish, turkmen, ukenglish, ukrainian, uppersorbian, u
+senglishmax, welsh, loaded.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\book.cls"
+Document Class: book 2007/10/19 v1.4h Standard LaTeX document class
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\bk11.clo"
+File: bk11.clo 2007/10/19 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hyperref.sty"
+Package: hyperref 2010/09/17 v6.81q Hypertext links for LaTeX
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ltxcmds.sty"
+Package: ltxcmds 2010/04/26 v1.7 LaTeX kernel commands for general use (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\infwarerr.sty"
+Package: infwarerr 2010/04/08 v1.3 Providing info/warning/message (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\keyval.sty"
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks14
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\kvsetkeys.sty"
+Package: kvsetkeys 2010/03/01 v1.9 Key value parser (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\etexcmds.sty"
+Package: etexcmds 2010/01/28 v1.3 Prefix for e-TeX command names (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+))
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdfescape.sty"
+Package: pdfescape 2010/03/01 v1.9 Provides hex, PDF name and string conversion
+s (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\pdftexcmds.sty"
+Package: pdftexcmds 2010/04/01 v0.9 Utility functions of pdfTeX for LuaTeX (HO)
+
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifluatex.sty"
+Package: ifluatex 2010/03/01 v1.3 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+))
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifpdf.sty"
+Package: ifpdf 2010/01/28 v2.1 Provides the ifpdf switch (HO)
+Package ifpdf Info: pdfTeX in pdf mode not detected.
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\ifvtex.sty"
+Package: ifvtex 2010/03/01 v1.5 Switches for detecting VTeX and its modes (HO)
+Package ifvtex Info: VTeX not detected.
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\ifxetex\ifxetex.sty"
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\hycolor.sty"
+Package: hycolor 2009/12/12 v1.6 Color options of hyperref/bookmark (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\xcolor-patch.sty"
+Package: xcolor-patch 2009/12/12 xcolor patch
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\letltxmacro.sty"
+Package: letltxmacro 2008/06/24 v1.3 Let assignment for LaTeX macros (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\kvoptions.sty"
+Package: kvoptions 2010/02/22 v3.7 Keyval support for LaTeX options (HO)
+)
+\@linkdim=\dimen103
+\Hy@linkcounter=\count88
+\Hy@pagecounter=\count89
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pd1enc.def"
+File: pd1enc.def 2010/09/17 v6.81q Hyperref: PDFDocEncoding definition (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\intcalc.sty"
+Package: intcalc 2007/09/27 v1.1 Expandable integer calculations (HO)
+)
+\Hy@SavedSpaceFactor=\count90
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\hyperref.cfg"
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 3798.
+Package hyperref Info: Hyper figures OFF on input line 3902.
+Package hyperref Info: Link nesting OFF on input line 3907.
+Package hyperref Info: Hyper index ON on input line 3910.
+Package hyperref Info: Plain pages OFF on input line 3917.
+Package hyperref Info: Backreferencing OFF on input line 3922.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4132.
+\c@Hy@tempcnt=\count91
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\ltxmisc\url.sty"
+\Urlmuskip=\muskip10
+Package: url 2006/04/12  ver 3.3  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4487.
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\bitset.sty"
+Package: bitset 2007/09/28 v1.0 Data type bit set (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\bigintcalc.sty"
+Package: bigintcalc 2007/11/11 v1.1 Expandable big integer calculations (HO)
+))
+\Fld@menulength=\count92
+\Field@Width=\dimen104
+\Fld@charsize=\dimen105
+Package hyperref Info: Hyper figures OFF on input line 5526.
+Package hyperref Info: Link nesting OFF on input line 5531.
+Package hyperref Info: Hyper index ON on input line 5534.
+Package hyperref Info: backreferencing OFF on input line 5541.
+Package hyperref Info: Link coloring ON on input line 5544.
+Package hyperref Info: Link coloring with OCG OFF on input line 5551.
+Package hyperref Info: PDF/A mode OFF on input line 5556.
+LaTeX Info: Redefining \ref on input line 5596.
+LaTeX Info: Redefining \pageref on input line 5600.
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\atbegshi.sty"
+Package: atbegshi 2010/03/25 v1.12 At begin shipout hook (HO)
+)
+\Hy@abspage=\count93
+\c@Item=\count94
+\c@Hfootnote=\count95
+)
+
+Package hyperref Message: Driver: hdvips.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\hdvips.def"
+File: hdvips.def 2010/09/17 v6.81q Hyperref driver for dvips
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\pdfmark.def"
+File: pdfmark.def 2010/09/17 v6.81q Hyperref definitions for pdfmark specials
+\pdf@docset=\toks15
+\pdf@box=\box26
+\pdf@toks=\toks16
+\pdf@defaulttoks=\toks17
+\Fld@listcount=\count96
+\c@bookmark@seq@number=\count97
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\rerunfilecheck.sty"
+Package: rerunfilecheck 2010/03/16 v1.6 Rerun checks for auxiliary files (HO)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\atveryend.sty"
+Package: atveryend 2010/03/24 v1.5 Hooks at very end of document (HO)
+Package atveryend Info: \enddocument detected (standard).
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\uniquecounter.sty"
+Package: uniquecounter 2009/12/18 v1.1 Provides unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+71.
+)
+\Hy@SectionHShift=\skip43
+))
+Package hyperref Info: Option `bookmarksnumbered' set `true' on input line 16.
+
+
+Package hyperref Warning: Option `pagecolor' is not available anymore.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\inputenc.sty"
+Package: inputenc 2008/03/30 v1.1d Input encoding file
+\inpenc@prehook=\toks18
+\inpenc@posthook=\toks19
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\latin1.def"
+File: latin1.def 2008/03/30 v1.1d Input encoding file
+))
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.sty"
+Package: babel 2008/07/06 v3.8l The Babel package
+
+*************************************
+* Local config file bblopts.cfg used
+*
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\bblopts.cfg"
+File: bblopts.cfg 2006/07/31 v1.0 MiKTeX 'babel' configuration
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\italian.ldf"
+Language: italian 2008/03/14 v1.2t Italian support from the babel system
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\babel.def"
+File: babel.def 2008/07/06 v3.8l Babel common definitions
+\babel@savecnt=\count98
+\U@D=\dimen106
+)
+Package babel Info: Making " an active character on input line 94.
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\fontenc.sty"
+Package: fontenc 2005/09/27 v1.99g Standard LaTeX package
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\t1enc.def"
+File: t1enc.def 2005/09/27 v1.99g Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+("C:\Users\Lombardi Luca\AppData\Roaming\MiKTeX\2.9\tex\latex\setspace\setspace
+.sty"
+Package: setspace 2000/12/01 6.7 Contributed and Supported LaTeX2e package
+
+Package: `setspace' 6.7 <2000/12/01>
+) ("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphicx.sty"
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\graphics.sty"
+Package: graphics 2009/02/05 v1.0o Standard LaTeX Graphics (DPC,SPQR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\trig.sty"
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\graphics.cfg"
+File: graphics.cfg 2007/01/18 v1.5 graphics configuration of teTeX/TeXLive
+)
+Package graphics Info: Driver file: dvips.def on input line 91.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\dvips.def"
+File: dvips.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+\Gin@req@height=\dimen107
+\Gin@req@width=\dimen108
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsmath.sty"
+Package: amsmath 2000/07/18 v2.13 AMS math features
+\@mathmargin=\skip44
+
+For additional information on amsmath, use the `?' option.
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amstext.sty"
+Package: amstext 2000/06/29 v2.01
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsgen.sty"
+File: amsgen.sty 1999/11/30 v2.0
+\@emptytoks=\toks20
+\ex@=\dimen109
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsbsy.sty"
+Package: amsbsy 1999/11/29 v1.2d
+\pmbraise@=\dimen110
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\ams\math\amsopn.sty"
+Package: amsopn 1999/12/14 v2.01 operator names
+)
+\inf@bad=\count99
+LaTeX Info: Redefining \frac on input line 211.
+\uproot@=\count100
+\leftroot@=\count101
+LaTeX Info: Redefining \overline on input line 307.
+\classnum@=\count102
+\DOTSCASE@=\count103
+LaTeX Info: Redefining \ldots on input line 379.
+LaTeX Info: Redefining \dots on input line 382.
+LaTeX Info: Redefining \cdots on input line 467.
+\Mathstrutbox@=\box27
+\strutbox@=\box28
+\big@size=\dimen111
+LaTeX Font Info:    Redeclaring font encoding OML on input line 567.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 568.
+\macc@depth=\count104
+\c@MaxMatrixCols=\count105
+\dotsspace@=\muskip11
+\c@parentequation=\count106
+\dspbrk@lvl=\count107
+\tag@help=\toks21
+\row@=\count108
+\column@=\count109
+\maxfields@=\count110
+\andhelp@=\toks22
+\eqnshift@=\dimen112
+\alignsep@=\dimen113
+\tagshift@=\dimen114
+\tagwidth@=\dimen115
+\totwidth@=\dimen116
+\lineht@=\dimen117
+\@envbody=\toks23
+\multlinegap=\skip45
+\multlinetaggap=\skip46
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2666.
+LaTeX Info: Redefining \] on input line 2667.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amsfonts.sty"
+Package: amsfonts 2009/06/22 v3.00 Basic AMSFonts support
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 96.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\amssymb.sty"
+Package: amssymb 2009/06/22 v3.00
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\makeidx.sty"
+Package: makeidx 2000/03/29 v1.0m Standard LaTeX package
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\wrapfig\wrapfig.sty"
+\wrapoverhang=\dimen118
+\WF@size=\dimen119
+\c@WF@wrappedlines=\count111
+\WF@box=\box29
+\WF@everypar=\toks25
+Package: wrapfig 2003/01/31  v 3.6
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\mdwtools\footnote.sty"
+Package: footnote 1997/01/28 1.13 Save footnotes around boxes
+\fn@notes=\box30
+\fn@width=\dimen120
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\subfig\subfig.sty"
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption.sty"
+Package: caption 2010/01/09 v3.1m Customizing captions (AR)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\caption3.sty"
+Package: caption3 2010/01/14 v3.1m caption3 kernel (AR)
+\captionmargin=\dimen121
+\captionmargin@=\dimen122
+\captionwidth=\dimen123
+\caption@indent=\dimen124
+\caption@parindent=\dimen125
+\caption@hangindent=\dimen126
+)
+\c@ContinuedFloat=\count112
+Package caption Info: hyperref package is loaded.
+Package caption Info: wrapfig package is loaded.
+)
+\c@KVtest=\count113
+\sf@farskip=\skip47
+\sf@captopadj=\dimen127
+\sf@capskip=\skip48
+\sf@nearskip=\skip49
+\c@subfigure=\count114
+\c@subfigure@save=\count115
+\c@lofdepth=\count116
+\c@subtable=\count117
+\c@subtable@save=\count118
+\c@lotdepth=\count119
+\sf@top=\skip50
+\sf@bottom=\skip51
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\tabularx.sty"
+Package: tabularx 1999/01/07 v2.07 `tabularx' package (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\array.sty"
+Package: array 2008/09/09 v2.4c Tabular extension package (FMi)
+\col@sep=\dimen128
+\extrarowheight=\dimen129
+\NC@list=\toks26
+\extratabsurround=\skip52
+\backup@length=\skip53
+)
+\TX@col@width=\dimen130
+\TX@old@table=\dimen131
+\TX@old@col=\dimen132
+\TX@target=\dimen133
+\TX@delta=\dimen134
+\TX@cols=\count120
+\TX@ftn=\toks27
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\tools\longtable.sty"
+Package: longtable 2004/02/01 v4.11 Multi-page Table package (DPC)
+\LTleft=\skip54
+\LTright=\skip55
+\LTpre=\skip56
+\LTpost=\skip57
+\LTchunksize=\count121
+\LTcapwidth=\dimen135
+\LT@head=\box31
+\LT@firsthead=\box32
+\LT@foot=\box33
+\LT@lastfoot=\box34
+\LT@cols=\count122
+\LT@rows=\count123
+\c@LT@tables=\count124
+\c@LT@chunks=\count125
+\LT@p@ftn=\toks28
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\booktabs\booktabs.sty"
+Package: booktabs 2005/04/14 v1.61803 publication quality tables
+\heavyrulewidth=\dimen136
+\lightrulewidth=\dimen137
+\cmidrulewidth=\dimen138
+\belowrulesep=\dimen139
+\belowbottomsep=\dimen140
+\aboverulesep=\dimen141
+\abovetopsep=\dimen142
+\cmidrulesep=\dimen143
+\cmidrulekern=\dimen144
+\defaultaddspace=\dimen145
+\@cmidla=\count126
+\@cmidlb=\count127
+\@aboverulesep=\dimen146
+\@belowrulesep=\dimen147
+\@thisruleclass=\count128
+\@lastruleclass=\count129
+\@thisrulewidth=\dimen148
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\color.sty"
+Package: color 2005/11/14 v1.0j Standard LaTeX Color (DPC)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package color Info: Driver file: dvips.def on input line 130.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\graphics\dvipsnam.def"
+File: dvipsnam.def 1999/02/16 v3.0i Driver-dependant file (DPC,SPQR)
+))
+("C:\Program Files\MiKTeX 2.9\tex\latex\xcolor\xcolor.sty"
+Package: xcolor 2007/01/21 v2.11 LaTeX color extensions (UK)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\00miktex\color.cfg"
+File: color.cfg 2007/01/18 v1.5 color configuration of teTeX/TeXLive
+)
+Package xcolor Info: Driver file: dvips.def on input line 225.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\colortbl\colortbl.sty"
+Package: colortbl 2001/02/13 v0.1j Color table columns (DPC)
+\everycr=\toks29
+\minrowclearance=\skip58
+)
+LaTeX Info: Redefining \color on input line 702.
+\rownum=\count130
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1337.
+Package xcolor Info: Model `RGB' extended on input line 1353.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1355.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1356.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1357.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1358.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1359.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1360.
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\threeparttable\threeparttable.sty"
+Package: threeparttable 2003/06/13  v 3.0
+\@tempboxb=\box35
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.sty"
+\lst@mode=\count131
+\lst@gtempboxa=\box36
+\lst@token=\toks30
+\lst@length=\count132
+\lst@currlwidth=\dimen149
+\lst@column=\count133
+\lst@pos=\count134
+\lst@lostspace=\dimen150
+\lst@width=\dimen151
+\lst@newlines=\count135
+\lst@lineno=\count136
+\lst@maxwidth=\dimen152
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstmisc.sty"
+File: lstmisc.sty 2007/02/22 1.4 (Carsten Heinz)
+\c@lstnumber=\count137
+\lst@skipnumbers=\count138
+\lst@framebox=\box37
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\listings.cfg"
+File: listings.cfg 2007/02/22 1.4 listings configuration
+))
+Package: listings 2007/02/22 1.4 (Carsten Heinz)
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang1.sty"
+File: lstlang1.sty 2004/09/05 1.3 listings language file
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\listings\lstlang2.sty"
+File: lstlang2.sty 2004/09/05 1.3 listings language file
+)
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.sty"
+Package: geometry 2010/09/12 v5.6 Page Geometry
+\Gm@cnth=\count139
+\Gm@cntv=\count140
+\c@Gm@tempcnt=\count141
+\Gm@bindingoffset=\dimen153
+\Gm@wd@mp=\dimen154
+\Gm@odd@mp=\dimen155
+\Gm@even@mp=\dimen156
+\Gm@layoutwidth=\dimen157
+\Gm@layoutheight=\dimen158
+\Gm@layouthoffset=\dimen159
+\Gm@layoutvoffset=\dimen160
+\Gm@dimlist=\toks31
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\geometry\geometry.cfg"))
+("C:\Program Files\MiKTeX 2.9\tex\latex\fancyhdr\fancyhdr.sty"
+\fancy@headwidth=\skip59
+\f@ncyO@elh=\skip60
+\f@ncyO@erh=\skip61
+\f@ncyO@olh=\skip62
+\f@ncyO@orh=\skip63
+\f@ncyO@elf=\skip64
+\f@ncyO@erf=\skip65
+\f@ncyO@olf=\skip66
+\f@ncyO@orf=\skip67
+)
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 67.
+
+
+Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
+less on input line 68.
+
+("C:\Users\Lombardi Luca\Desktop\ISI\Relazione\bozza-doc.aux")
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 86.
+LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 86.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 86.
+
+("C:\Program Files\MiKTeX 2.9\tex\generic\babel\lgrcmr.fd"
+File: lgrcmr.fd 2008/06/17 v2.3 Greek Computer Modern
+)
+LaTeX Font Info:    ... okay on input line 86.
+\AtBeginShipoutBox=\box38
+Package hyperref Info: Link coloring ON on input line 86.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
+Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\oberdiek\refcount.sty"
+Package: refcount 2008/08/11 v3.1 Data extraction from references (HO)
+)
+("C:\Program Files\MiKTeX 2.9\tex\generic\oberdiek\gettitlestring.sty"
+Package: gettitlestring 2009/12/18 v1.3 Cleanup title references (HO)
+)
+\c@section@level=\count142
+)
+LaTeX Info: Redefining \ref on input line 86.
+LaTeX Info: Redefining \pageref on input line 86.
+LaTeX Info: Redefining \nameref on input line 86.
+
+("C:\Users\Lombardi Luca\Desktop\ISI\Relazione\bozza-doc.out")
+("C:\Users\Lombardi Luca\Desktop\ISI\Relazione\bozza-doc.out")
+\@outlinefile=\write3
+Package caption Info: Begin \AtBeginDocument code.
+Package caption3 Info: subfig package 1.2 or 1.3 is loaded.
+LaTeX Info: Redefining \subref on input line 86.
+Package caption Info: listings package is loaded.
+Package caption Info: longtable package is loaded.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\caption\ltcaption.sty"
+Package: ltcaption 2008/03/28 v1.2 longtable captions (AR)
+)
+Package caption Info: threeparttable package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count143
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: dvips
+*geometry* verbose mode - [ preamble ] result:
+* driver: dvips
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(76.78688pt, 460.72124pt, 76.78688pt)
+* v-part:(T,H,B)=(63.59662pt, 635.97841pt, 95.39496pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=460.72124pt
+* \textheight=635.97841pt
+* \oddsidemargin=4.51689pt
+* \evensidemargin=4.51689pt
+* \topmargin=-40.54716pt
+* \headheight=12.0pt
+* \headsep=19.8738pt
+* \topskip=11.0pt
+* \footskip=27.46295pt
+* \marginparwidth=62.0pt
+* \marginparsep=7.0pt
+* \columnsep=10.0pt
+* \skip\footins=10.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+("C:\Users\Lombardi Luca\Desktop\ISI\Relazione\fronte.tex"
+File: stemma.eps Graphic file (type eps)
+ <stemma.eps>
+LaTeX Font Info:    Try loading font information for U+msa on input line 22.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsa.fd"
+File: umsa.fd 2009/06/22 v3.00 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 22.
+
+("C:\Program Files\MiKTeX 2.9\tex\latex\amsfonts\umsb.fd"
+File: umsb.fd 2009/06/22 v3.00 AMS symbols B
+)
+Overfull \hbox (34.97559pt too wide) in paragraph at lines 22--31
+ [][][] 
+ []
+
+
+Overfull \hbox (34.9756pt too wide) in paragraph at lines 22--31
+ [] 
+ []
+
+[1
+
+
+]) ("C:\Users\Lombardi Luca\Desktop\ISI\Relazione\bozza-doc.toc")
+\tf@toc=\write4
+ [1
+
+]
+("C:\Users\Lombardi Luca\Desktop\ISI\Relazione\Introduzione.tex"
+Capitolo 1.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 6.
+("C:\Program Files\MiKTeX 2.9\tex\latex\base\omscmr.fd"
+File: omscmr.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 6.
+ [1
+
+
+]
+("C:\Users\Lombardi Luca\Desktop\ISI\Relazione\section1_1.tex"
+File: figure/home_page.eps Graphic file (type eps)
+
+<figure/home_page.eps>
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 13.59999pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[2]
+File: figure/privati1.eps Graphic file (type eps)
+ <figure/privati1.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 14--22
+
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[3]
+
+LaTeX Warning: Text page 4 contains only floats.
+
+[4]
+File: figure/privati2.eps Graphic file (type eps)
+ <figure/privati2.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 33--40
+
+ []
+
+[5] [6]
+File: figure/supporto1.eps Graphic file (type eps)
+ <figure/supporto1.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 50--57
+
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+) ("C:\Users\Lombardi Luca\Desktop\ISI\Relazione\section1_2.tex"
+File: figure/grantt.eps Graphic file (type eps)
+
+<figure/grantt.eps>
+
+LaTeX Warning: Float too large for page by 49.45961pt on input line 10.
+
+) ("C:\Users\Lombardi Luca\Desktop\ISI\Relazione\section1_3.tex"
+Underfull \hbox (badness 10000) in paragraph at lines 2--1
+
+ []
+
+[7]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[8]
+Underfull \hbox (badness 10000) in paragraph at lines 2--6
+
+ []
+
+[9] [10])) [11] [12]
+("C:\Users\Lombardi Luca\Desktop\ISI\Relazione\capitolo2.tex"
+Capitolo 2.
+("C:\Users\Lombardi Luca\Desktop\ISI\Relazione\section2_1.tex"
+File: figure/grafico_valutatori_errori.eps Graphic file (type eps)
+
+<figure/grafico_valutatori_errori.eps> [13
+
+
+])
+("C:\Users\Lombardi Luca\Desktop\ISI\Relazione\section2_2.tex" [14] [15]
+Underfull \hbox (badness 10000) in paragraph at lines 33--40
+
+ []
+
+[16]) ("C:\Users\Lombardi Luca\Desktop\ISI\Relazione\section2_3.tex")
+("C:\Users\Lombardi Luca\Desktop\ISI\Relazione\section2_4.tex"
+Underfull \hbox (badness 10000) in paragraph at lines 2--3
+
+ []
+
+[17]
+File: figure/home_page_modificata.eps Graphic file (type eps)
+ <figure/home_page_modificata.eps>
+File: figure/login1.eps Graphic file (type eps)
+ <figure/login1.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 9--24
+
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[18]
+File: figure/creazione_account.eps Graphic file (type eps)
+ <figure/creazione_account.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 41--49
+
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: figure/privacy.eps Graphic file (type eps)
+<figure/privacy.eps> [19]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[20]
+File: figure/logout.eps Graphic file (type eps)
+ <figure/logout.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: figure/ricerca_cancellazione_account.eps Graphic file (type eps)
+<figure/ricerca_cancellazione_account.eps> [21]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: figure/registrazione_mail.eps Graphic file (type eps)
+<figure/registrazione_mail.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: figure/concorso.eps Graphic file (type eps)
+<figure/concorso.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[22]
+File: figure/ricerca.eps Graphic file (type eps)
+ <figure/ricerca.eps> [23] [24]
+File: figure/chat.eps Graphic file (type eps)
+ <figure/chat.eps>
+File: figure/televisione1.eps Graphic file (type eps)
+
+<figure/televisione1.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: figure/televisioni2.eps Graphic file (type eps)
+<figure/televisioni2.eps> [25]
+File: figure/specifiche.eps Graphic file (type eps)
+ <figure/specifiche.eps> [26]
+File: figure/schermata_incasinata.eps Graphic file (type eps)
+
+<figure/schermata_incasinata.eps> [27] [28]
+File: figure/assistenza1.eps Graphic file (type eps)
+ <figure/assistenza1.eps>
+File: figure/assistenza2.eps Graphic file (type eps)
+
+<figure/assistenza2.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[29]
+Overfull \hbox (4.5351pt too wide) in paragraph at lines 232--237
+\T1/cmr/m/n/10.95 ([][][][][][] 
+ []
+
+[30]
+File: figure/garanzia2.eps Graphic file (type eps)
+ <figure/garanzia2.eps>
+Overfull \hbox (40.65189pt too wide) in paragraph at lines 257--258
+ [][][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: figure/riepilogo1.eps Graphic file (type eps)
+<figure/riepilogo1.eps> [31]
+File: figure/cassa1.eps Graphic file (type eps)
+ <figure/cassa1.eps> [32]
+File: figure/chainlink.eps Graphic file (type eps)
+ <figure/chainlink.eps>
+Underfull \hbox (badness 1052) in paragraph at lines 288--288
+[]\T1/cmr/m/n/10.95 Figura 2.21: |La fi-gu-ra mo-stra co-me un'op-zio-ne con-se
+n-ti-ta al-l'u-ten-te pro-du-ca un er-ro-re
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: figure/stato_ordine.eps Graphic file (type eps)
+<figure/stato_ordine.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[33] [34]
+File: figure/supporto_raid1.eps Graphic file (type eps)
+ <figure/supporto_raid1.eps>
+Overfull \hbox (0.85631pt too wide) in paragraph at lines 324--324
+[]\T1/cmr/m/n/10.95 Figura 2.23: |La pa-gi-na di sup-por-to. In [][][][][][] 
+ []
+
+File: figure/supporto_raid2.eps Graphic file (type eps)
+<figure/supporto_raid2.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: figure/privilegi.eps Graphic file (type eps)
+<figure/privilegi.eps> [35]
+File: figure/sintonizzatore.eps Graphic file (type eps)
+ <figure/sintonizzatore.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[36]
+File: figure/riciclo1.eps Graphic file (type eps)
+ <figure/riciclo1.eps>
+File: figure/riciclo2.eps Graphic file (type eps)
+ <figure/riciclo2.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[37]
+File: figure/driver.eps Graphic file (type eps)
+ <figure/driver.eps> [38]
+File: figure/manuali1.eps Graphic file (type eps)
+ <figure/manuali1.eps>
+File: figure/manutenzione.eps Graphic file (type eps)
+ <figure/manutenzione.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[39]
+File: figure/cartina.eps Graphic file (type eps)
+ <figure/cartina.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[40]) ("C:\Users\Lombardi Luca\Desktop\ISI\Relazione\section2_5.tex"
+File: figure/percentuali_esaminatori.eps Graphic file (type eps)
+
+<figure/percentuali_esaminatori.eps> [41]
+File: figure/grafico_problemi_percentuali.eps Graphic file (type eps)
+
+<figure/grafico_problemi_percentuali.eps>
+
+LaTeX Warning: Float too large for page by 51.14429pt on input line 17.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: figure/percentuali_singoli_esaminatori_categoria_percezione.eps Graphic f
+ile (type eps)
+<figure/percentuali_singoli_esaminatori_categoria_percezione.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: figure/percentuali_singoli_esaminatori_categoria_errori.eps Graphic file 
+(type eps)
+<figure/percentuali_singoli_esaminatori_categoria_errori.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: figure/percentuali_singoli_esaminatori_categoria_cognizione.eps Graphic f
+ile (type eps)
+<figure/percentuali_singoli_esaminatori_categoria_cognizione.eps>
+
+LaTeX Warning: Float too large for page by 26.75938pt on input line 38.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: figure/percentuali_criticità.eps Graphic file (type eps)
+<figure/percentuali_criticità.eps>))
+Underfull \hbox (badness 10000) in paragraph at lines 40--99
+
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[42] [43] [44] [45] [46] [47] [48]
+("C:\Users\Lombardi Luca\Desktop\ISI\Relazione\capitolo3.tex"
+Capitolo 3.
+
+Underfull \hbox (badness 10000) in paragraph at lines 11--13
+
+ []
+
+[49
+
+
+]
+Underfull \hbox (badness 10000) in paragraph at lines 18--23
+
+ []
+
+("C:\Users\Lombardi Luca\Desktop\ISI\Relazione\section3_1.tex" [50]
+Underfull \hbox (badness 10000) in paragraph at lines 8--12
+
+ []
+
+[51] [52]) ("C:\Users\Lombardi Luca\Desktop\ISI\Relazione\section3_2.tex"
+Underfull \hbox (badness 10000) in paragraph at lines 2--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--16
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 2--16
+
+ []
+
+[53]
+Underfull \hbox (badness 10000) in paragraph at lines 22--23
+
+ []
+
+[54]) ("C:\Users\Lombardi Luca\Desktop\ISI\Relazione\section3_3.tex" [55]
+File: figure/grafico_difficolta.eps Graphic file (type eps)
+
+<figure/grafico_difficolta.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: figure/grafico_tempi_esecuzione.eps Graphic file (type eps)
+<figure/grafico_tempi_esecuzione.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: figure/grafico_errori_test_utente.eps Graphic file (type eps)
+<figure/grafico_errori_test_utente.eps>
+
+LaTeX Warning: Float too large for page by 1.21315pt on input line 31.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+)) [56]
+
+LaTeX Warning: Text page 57 contains only floats.
+
+[57] [58] [59] [60] ("C:\Users\Lombardi Luca\Desktop\ISI\Relazione\capitolo4.te
+x"
+Capitolo 4.
+
+Underfull \hbox (badness 10000) in paragraph at lines 9--14
+
+ []
+
+[61
+
+
+] ("C:\Users\Lombardi Luca\Desktop\ISI\Relazione\section4_1.tex"
+File: figure/mock_up_home_page.eps Graphic file (type eps)
+
+<figure/mock_up_home_page.eps>
+File: figure/mock_up_home_page2.eps Graphic file (type eps)
+ <figure/mock_up_home_page2.eps>
+File: figure/mock_up_home_page_loggato.eps Graphic file (type eps)
+
+<figure/mock_up_home_page_loggato.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 2--27
+
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[62] [63]
+Underfull \hbox (badness 10000) in paragraph at lines 35--36
+
+ []
+
+File: figure/mock_up_fom_login.eps Graphic file (type eps)
+<figure/mock_up_fom_login.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[64]
+File: figure/mock_up_cancellazione.eps Graphic file (type eps)
+ <figure/mock_up_cancellazione.eps>
+Underfull \hbox (badness 10000) in paragraph at lines 54--56
+
+ []
+
+[65]
+File: figure/mock_up_link_usati.eps Graphic file (type eps)
+ <figure/mock_up_link_usati.eps>
+File: figure/mock_up_manutenzione.eps Graphic file (type eps)
+ <figure/mock_up_manutenzione.eps>
+File: figure/mock_up_login_reindirizzo.eps Graphic file (type eps)
+
+<figure/mock_up_login_reindirizzo.eps> [66]
+File: figure/mock_up_riepilogo.eps Graphic file (type eps)
+ <figure/mock_up_riepilogo.eps>
+
+LaTeX Warning: Float too large for page by 67.75961pt on input line 91.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 95--96
+
+ []
+
+[67]
+File: figure/mockup_sez_acquisti_pagina_intera.eps Graphic file (type eps)
+ <figure/mockup_sez_acquisti_pagina_intera.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[68]
+File: figure/supporto_senza_modifiche.eps Graphic file (type eps)
+ <figure/supporto_senza_modifiche.eps> [69]
+File: figure/mock_up_home_supporto.eps Graphic file (type eps)
+
+<figure/mock_up_home_supporto.eps>
+Overfull \hbox (15.35416pt too wide) in paragraph at lines 149--150
+ [][][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+))
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 117.
+ [70] [71] [72] [73]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 117.
+
+("C:\Users\Lombardi Luca\Desktop\ISI\Relazione\bozza-doc.aux")
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 117.
+Package rerunfilecheck Info: File `bozza-doc.out' has not changed.
+(rerunfilecheck)             Checksum: 4FED8E873C61C5184E128E6E023099B3;1165.
+ ) 
+Here is how much of TeX's memory you used:
+ 10259 strings out of 494020
+ 152537 string characters out of 3146497
+ 499599 words of memory out of 3000000
+ 13218 multiletter control sequences out of 15000+200000
+ 23933 words of font info for 59 fonts, out of 3000000 for 9000
+ 714 hyphenation exceptions out of 8191
+ 44i,12n,47p,1057b,515s stack positions out of 5000i,500n,10000p,200000b,50000s
+
+Output written on bozza-doc.dvi (75 pages, 277440 bytes).
