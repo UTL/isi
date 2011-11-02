@@ -62,8 +62,8 @@ Diverso è l'intervento implementabile:
 \label{fig:mock_up_link_usati}
 \end{figure}
 
-{\bf Descrizione}: come segnalato in precedenza, il sistema in nessuna sua parte, dà mai all'utente un riscontro sui link già usati, all'interno di una stessa sessione di lavoro.\\
-{\bf Proposte di soluzione}: come riportato in figura \ref{fig:mock_up_link_usati} si può notare come i link selezionati almeno una volta siano colorati in modo diverso, dando all'utente un aiuto qualora cerchi una pagina visitata in precedenza e l'operatore di UNDO del browser non gli possa essere d'aiuto.
+{\bf Descrizione}: come segnalato in precedenza, il sistema spesso non offre all'utente un riscontro sui link già usati (per esempio nei menu a tendina in cima alla pagina), all'interno di una stessa sessione di lavoro.\\
+{\bf Proposte di soluzione}: come riportato in figura \ref{fig:mock_up_link_usati} si può notare come i link selezionati almeno una volta siano colorati in modo diverso, dando all'utente un aiuto qualora cerchi una pagina visitata in precedenza e l'operatore di BACK del browser non gli possa essere d'aiuto.
 
 \begin{figure}[!h]
 \centering
@@ -72,8 +72,8 @@ Diverso è l'intervento implementabile:
 \label{fig:mock_up_manutenzione}
 \end{figure}
 
-{\bf Descrizione}: dalla figura \ref{fig:manutenzione} di nota che l'area dedicata al ``Codice Manutenzione'', è estramente ridotta e si deve ricorrere a una scroll bar per consentire all'utente di visualizzare tutto il contenuto: ciò risulta estremamente scomodo, considerato che il resto della pagina è inutilizzato.\\
-{\bf Proposte di soluzioni}: viene ampliata l'intera area, fino a che la scroll bar non scompare, in tal modo l'utente può accedere a tutte le informazioni in modo diretto senza intralci.
+{\bf Descrizione}: dalla figura \ref{fig:manutenzione} si può vedere che l'area dedicata al ``Codice di matricola'', è estramente ridotta e si deve ricorrere a una scroll bar per consentire all'utente di visualizzare tutto il contenuto: abbiamo in questo caso un help nascosto, ciò risulta estremamente scomodo, considerato che nella pagina è presente molto spazio inutilizzato.\\
+{\bf Proposte di soluzioni}: viene ampliata l'intera area, fino a che la scroll bar non scompare, in tal modo l'utente può accedere a tutte le informazioni in modo diretto.
 
 
 \begin{figure}[!h]
@@ -82,59 +82,61 @@ Diverso è l'intervento implementabile:
 \caption{Nel caso il form del login non reindirizzi automaticamente, viene data la possibilità all'utente di agire manualmente}
 \label{fig:mock_up_login_reindirizzo}
 \end{figure}
-{\bf Descrizione}: nella figura \ref{fig:mock_up_riepilogo} sono evidenziate le piccole modifiche apportate alla pagina di configurazione del propriro sistema Dell. Come anticipato nella sezione relativa ai problemi di usabilità, la pagina relativa alla scelta per la copertura sui danni accidentali, non ha alcun riferimento alle condizioni contrattuali, ma solo vaghe spiegazioni dal carattere pubblicitario. Inoltre la finestra di riepilogo delle componenti scelte per la personalizzazione è molto ristretta, costringendo l'utente a un continuo uso dello scroll per scorrere tale riassunto.\\
-{\bf Proposta di soluzione}: viene aggiunto un link alla documentazione per gli esatti termini contrattuali dell'estensione di garanzia proposta. Inoltre come si può notare a destra, la finestra di riepilogo dei componenti selezionati dall'utente viene espansa in modo da mostrare più componenti contemporaneamente.
+{\bf Descrizione}: nella figura \ref{fig:mock_up_riepilogo} sono evidenziate le modifiche apportate alla pagina di configurazione del propriro sistema Dell. Come anticipato nella sezione relativa ai problemi di usabilità, la pagina relativa alla scelta per la copertura sui danni accidentali, non ha alcun riferimento alle condizioni contrattuali, ma solo vaghe spiegazioni dal carattere pubblicitario. Inoltre la finestra di riepilogo delle componenti scelte per la personalizzazione è molto ristretta, costringendo l'utente a un continuo uso dello scroll per scorrere tale riassunto.\\
+{\bf Proposta di soluzione}: viene aggiunto un link alla documentazione per gli esatti termini contrattuali dell'estensione di garanzia proposta. Inoltre la finestra di riepilogo dei componenti selezionati dall'utente, posta nella parte destra della pagina, viene espansa in modo da mostrare più componenti contemporaneamente.
 \begin{figure}[!h]
 \centering
 \includegraphics[scale=0.7,angle=90]{figure/mock_up_riepilogo.eps}
 \caption{Mock-up sulla pagina di configurazione del computer}
 \label{fig:mock_up_riepilogo}
 \end{figure}
-
-Come anticipato nella sezione relativa ai problemi di usabilità, un problema no un certo rilievo è quello del sovraffollamento dell'home page delle due sezioni ``Acquista'' e ``Supporto'' che rendono difficoltosa la navigazione. In questa parte analizzeremo le due soluzioni proposte, motivando le scelte effettuate.
+\newline
+{\bf Descrizione}: come anticipato nella sezione relativa ai problemi di usabilità, un problema di un certo rilievo è il sovraffollamento delle due sezioni ``Acquista'' e ``Supporto'', che rendono difficoltosa la navigazione. 
+Di seguito analizzeremo le due soluzioni proposte, motivando le scelte effettuate.
 \begin{itemize}
-\item {\bf Sezione Acquisti}: per prima è stata analizzata la home page della sezione degli acquisti. Come si può notare dalle figura mostrata nella sezione relativa ai problemi di usabilità, alla figura: \ref{fig:schermata_incasinata}, la pagina mostrata all'utente è densa di banner pubbblicitari, che creano confusione, e duplicano tutti i link. Dal punto di vista del marketing, sicuramente è utile avere una pagina formattata in tale maniera, poichè come detto, il sito ha anche lo scopo di essere una vetrina d'esposizione per i prodotti dell'azienda, tuttavia dal punto di vista della navigabilità non è ottimale.\\
+\item {\bf Sezione Acquisti}: innanzitutto è stata analizzata la home page della sezione degli acquisti. Come si può notare dalle figura mostrata nella sezione relativa ai problemi di usabilità, in figura \ref{fig:schermata_incasinata}, la pagina mostrata all'utente è troppo densa densa di informazioni, i titoli delle macrosezioni non sono cliccabili, sono presenti link duplicati che puntano alle medesime sezioni e al tutto sono mescolati banner pubblicitari. Sicuramente è utile usare banner pubblicitari per mettere in risalto alcuni prodotti, siccome il sito ha anche lo scopo di essere una vetrina d'esposizione per i propri prodotti, tuttavia la loro collocazione spaziale inficia la navigabilità.\\
 
-{\bf Proposte di soluzione}: per ovviare a tali problemi si è pensato a un netto snellimento dei contenuti, che tuttavia non percludono la possibilità di aggiungere della pubblicità, ma è la pagina risulta decisamente più facile da navigare e le informazioni utili sono al centro dell'attenzione, e non mescolate alla pubblicità come acadeva prima.\\
+{\bf Proposte di soluzione}: per ovviare a tali problemi si è pensato a una totale riorganizzazione e razionalizzazione dei contenuti, senza la contempo precludere la possibilità di aggiungere della pubblicità. \\
 Nella figura \ref{fig:mockup_sez_acquisti_pagina_intera} si può vedere come si è pensato di riorganizzare il tutto:
 \begin{itemize}
-\item Innanzitutto spariscono tutte le immagini pubblicitarie che potranno essere poste ai lati del corpo centrale della pagina
-\item Di tutte e sei le sezioni pre-esistenti (vedere figura:\ref{fig:schermata_incasinata}) vengono mantenute solamente quattro categorie che racchiudono tutti i prodotti: ``Notebook \& Mini'', ``Desktop e All-in-One'', ``Monitor'', ``Elettronica ed Accessori''. Tramite queste si accede alle sottosezioni. Si è ritenuto utile porre al di sotto di ogni immagine una serie di qualche link, come accelleratori per poter incentivare la visita delle pagine relative a dei prodotti sulla quale l'azienda vuole maggiormente puntare come vendita, ma in ogni caso tali link non costituiscono la parte preponderante della pagina e non sono d'intralcio nella navigazione
-\item Al di sotto di questa sezione vengono proposti due link in chiara evidenza, nel caso l'utente necessitasse o volesse richiedere assistenta per l'acquisto di un qualsiasi prodotto. I due link scelti sono quelli dell'assistenza tramite una chat oppure assistenza telefonica. \'E stato ritenuto sufficiente questo tipo di aiuto, poichè come segnalato, le finestre a pop-up o altri tipi di avvisi per richiedere assistenza spesso erano più dannosi che altro (Es: il link per la chat che navigava all'interno della pagina)
+Di seguito elenchiamo i cambiamenti introdotti dal mock-up:
+\item Innanzitutto spariscono tutte le immagini pubblicitarie che, eventualmente, potranno essere poste ai lati del corpo centrale della pagina.
+\item Delle sei sezioni presenti in precedenza (vedere figura:\ref{fig:schermata_incasinata}) ne manteniamo solo quattro, scelte in modo tale che racchiudano tutti i prodotti: ``Notebook \& Mini'', ``Desktop e All-in-One'', ``Monitor'', ``Elettronica e Accessori''. Tramite esse si accede alle varie sottosezioni. Si è ritenuto utile porre al di sotto di ogni immagine alcuni link, come acceleratori per accedere direttamente alle pagine relative alle principali sotto-categorie. In ogni caso abbiamo cercato di fare si che tali link non costituiscono la parte preponderante della pagina e non siano d'intralcio durante la navigazione.
+\item Al di sotto di questa sezione vengono proposte due sezioni in chiara evidenza, nel caso l'utente necessitasse di assistenta per l'acquisto di un prodotto. Le due aree scelte sono dedicate all'assistenza tramite chat, oppure assistenza telefonica. L'assistenza tramite chat rimanda all'apposita sezione, all'assistenza telefonica invece non ne è dedicata nessuna, riportando solo il numero di telefono.  
 \end{itemize}
 
 \begin{figure}[!h]
 \centering
 \includegraphics[scale=0.52]{figure/mockup_sez_acquisti_pagina_intera.eps}
-\caption{Mock-up della sezione degli acquisti}
+\caption{Mock-up della sezione acquisti}
 \label{fig:mockup_sez_acquisti_pagina_intera}
 \end{figure}
 
-\item{\bf Descrizione}: la sezione di supporto, seppur in forma minore, soffre anch'essa del problema della home page della sezione acquisti, ossia di sovraffollamento di link spesso ripetuti che creano solamente confusione per l'utente meno esperto. In questa sezione non si hanno banner pubblicitari, ma la pagine risulta essere densa di scritte e le immagini spesso sono splicative, ma racchiudono solamente macro gruppi di link, che risultano essere lunghi da leggere.
+\item{\bf Descrizione}: la sezione di supporto, soffre anch'essa di sovraffollamento di link, spesso ripetuti, che disorientano l'utente meno esperto. In questa sezione non ci sono banner pubblicitari, ma la pagine risultano essere dense di link e testo. Sotto le immagini spesso vengono proposte lunghe liste di link, che rallentano la ricerca dei contenuti desiderati.
 {\bf Proposte di soluzione}: per migliorare la pagina sono state introdotte radicali modifiche al layout:
 \begin{itemize}
-\item I quattro gruppi principali di icone poste a centro pagina, sono stati unite ai sei che si trovano poco più sotto, all'interno della parte ``Altri strumenti di supporto''. In tal modo si sono ottenuti sette macro insiemi che racchiudono e suddividono in categorie tutte le tipologie di problemi che potrebbe avere l'utente. Tali categorie sono:
+\item I quattro gruppi principali di icone poste a centro pagina, sono stati unite ai sei che si trovano poco più sotto, all'interno della parte ``Altri strumenti di supporto''. In tal modo si sono ottenuti sette macro sezioni, che racchiudono e suddividono in categorie le tipologie di problemi che potrebbe avere l'utente. Tali categorie sono:
 \begin{itemize}
-\item Driver e Hardware: sezione dedicata ai driver, aggiornamenti e richiesta di assistenza per  l'hardware del computer. Da tale sezione di può accedere alla sezione di download di aggiornamenti per firmware e altro software strttamente legato al funzionamento dei componenti fisici del computer
-\item Guide e Tutorial: sezione dedicata alla documentazione per poter consentire all'utente di imparare da manuali e trovare risposte alla domande più frequenti
-\item Supporto per Windows: sezione che riguarda tutti i sistemi Microsoft che sono venduti sulle macchine Dell. All'interno si accede a una pagina che permette all'utente di scegliere fra i vari sistemi operativi, trovare risposte che riguardano il buon funzionamento del sistema operativo
-\item Stato dell'ordine e supporto: sezione rivolta a chi necessita di avere risposte e assistenza per effettuare correttamente un ordine, avere notizie riguardate lo stato si un ordine già effettuato
-\item Sicurezza e virus: sezione dedicata alla sicurezza del sistema Dell acquistato
-\item Connettività e reti: sezione dedicata alla configurazione e gestione di una rete domestica, sia calbata che wireless
-\item Stampanti e altre periferiche: sezione dedicata all'installazione e configurazione in una periferica collegata poi a un sistema Dell. In tale sezione si trova anche supporto per le periferiche di marchio Dell
+\item Driver e Hardware: sezione dedicata ai driver, aggiornamenti e richiesta di assistenza per  l'hardware del computer. Da tale sezione di può accedere alla sezione di download di aggiornamenti per firmware e altro software strttamente legato al funzionamento dei componenti fisici del computer.
+\item Guide e Tutorial: sezione dedicata alla documentazione per poter consentire all'utente di consultare manuali e trovare risposte alla domande più frequenti.
+\item Supporto per Windows: sezione che riguarda tutti i sistemi Microsoft che sono venduti sulle macchine Dell. All'interno si accede a una pagina che permette all'utente di scegliere fra i vari sistemi operativi, trovare risposte che riguardano il buon funzionamento del sistema operativo.
+\item Stato dell'ordine e supporto: sezione rivolta a chi necessita di avere risposte e assistenza per effettuare correttamente un ordine, avere notizie riguardate lo stato si un ordine già effettuato.
+\item Sicurezza e virus: sezione dedicata alla sicurezza del sistema Dell acquistato.
+\item Connettività e reti: sezione dedicata alla configurazione e gestione di una rete domestica, sia calbata che wireless.
+\item Stampanti e altre periferiche: sezione dedicata all'installazione e configurazione in una periferica collegata poi a un sistema Dell. In tale sezione si trova anche supporto per le periferiche di marchio Dell.
 \end{itemize}
-\item Al di sotto delle 7 esplicate in precedenza, la pagina mostra altri quattro gruppi che non potevano essere accorpati a quelli precedenti, e non hanno la stessa importanza:
+\item Sotto alle sette categorie di cui sopra ne abbiamo poste altre quattro che non accorpabili alle  precedenti, e sono meno importanti delle precedenti:
 \begin{itemize}
-\item Forum Dell: link dedicato all'accesso alla community per avere assistenza da altri utenti
-\item Informazioni sulla garanzia: link che permette di accedere alla visione del contratto di garanzia che l'utente stipula al momento dell'acquisto di un prodotto Dell
-\item Cronologia e stato di supporto: qualora la richiesta di assistenza non fosse immediatamente soddisfatta, in questa sezione l'utente può avere informazioni e aggiornamenti sulla propria domanda di supporto
-\item Strumenti e applicazioni: sezione dedicata a come trovare i vari codici, e diciture dei compoenti hardware e software che sono spesso richiesti dall'assistenza
+\item Forum Dell: link dedicato all'accesso alla community per avere assistenza da altri utenti.
+\item Informazioni sulla garanzia: link che permette di accedere alla visione del contratto di garanzia che l'utente stipula al momento dell'acquisto di un prodotto Dell.
+\item Cronologia e stato di supporto: qualora la richiesta di assistenza non fosse immediatamente soddisfatta, in questa sezione l'utente può avere informazioni e aggiornamenti sulla propria domanda di supporto.
+\item Strumenti e applicazioni: sezione dedicata a come trovare i vari codici, e diciture dei compoenti hardware e software che sono spesso richiesti dall'assistenza.
 \end{itemize}
 \item A fianco del corpo centrale, a sinistra è riproposta una colonna di link, che a dispetto della versione precedente (figura: \ref{fig:supporto_senza_modifiche}), ha molti meno link. Nella nuova versione infatti sono stati riportati solamente:
 \begin{itemize}
 \item un link all'home page della sezione di supporto;
-\item una serie di contatti diretti con gli operatori specializzati (vendita, ordine, tecnici)
-\item una lista composta da otto link, che riportano le otto domande più frequenti poste nell'ultimo periodo. Tale lista è variabile, in quanto le domande più cercate cambieranno nel tempo, ma è utile mostrarle all'utente per consentire ad utenti più esperti di avere degli accelleratori adeguati
+\item una serie di contatti diretti con gli operatori specializzati (vendita, ordine, tecnici).
+\item una lista composta da otto link, che riportano le otto domande più frequenti poste nell'ultimo periodo. Tale lista è variabile, in quanto le domande poste più spesso cambieranno nel tempo, abbiamo ritenuto utile mostrarle come acceleratori.
 \end{itemize}
 \end{itemize}
 \end{itemize}
