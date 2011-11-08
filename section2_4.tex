@@ -1,14 +1,14 @@
 \section{Problemi di usabilità} \label{cap:errori}
-Nella sezione che segue, sono riportati i vari problemi di usabilità individuati, seguendo lo schema di descrizione esplicitato in precendenza, ossia, numero, titolo, descrizione, principi violati, livello di criticità; laddove è stato ritenuto utile è stato anche inserito uno screen-shot esplicativo. \'E da ricordare che tutti gli errori individuati, erano presenti nel periodo compreso tra il 15/8/2010 e il 10/9/2010; essendo un sito dinamico è più che plausibile che taluni errori possano essere stati corretti, mentre altri possano essere stati introdotti.\\
+In questa sezione enumereremo e descriveremo i problemi di usabilità individuati durante la precedente analisi, seguendo lo schema di descrizione già esplicitato, ossia, numero progressivo, titolo, descrizione, principi violati e livello di criticità. Laddove si è ritenuto necessario è stato anche inserito uno screen-shot esplicativo. Sottolineiamo che tutti gli errori individuati, erano presenti nel periodo compreso tra il 15/8/2010 e il 10/9/2010; essendo il sito di Dell soggetto a periodici cambiamenti e aggiornamenti è più che plausibile che taluni errori possano essere stati corretti, mentre di nuovi ne possano essere stati introdotti.\\
 
 \begin{enumerate}
 \item \underline {Ritorno all'home page}\\
-{\bf Descrizione:} Accedendo ad una qualsiasi sezione del sito web(notebook, desktop-all-in-one,etc...), il link di ritorno alla home page risulta nascosto nel simbolo della compagnia, posto in alto a sinistra\\
+{\bf Descrizione:} Accedendo ad una qualsiasi sezione del sito web(notebook, desktop-all-in-one,etc...), il link di ritorno alla home page non è chiaramente visibile, per tornare alla home è necessario cliccare sul simbolo della compagnia, posto in alto a sinistra.\\
 {\bf Violazione principi:} 3 controllo e libertà dell'utente (uscite indicate chiaramente)\\
 {\bf Criticità:} 2
 \item \underline {Registrazione nuovo account}\\
-{\bf Descrizione:} La creazione di un nuovo account non risulta immediata. Si accede alla sezione di registrazione solamente cliccando sopra al link ``il mio account'' posto in alto a destra, e successivamente su ``Crea un account''. L'attuale soluzione sembra inizialmente l'accesso a una sezione per chi sia già in possesso di un account. Nelle figure \ref{fig:homepage1} e \ref{fig:login1} mostrano quanto appena descritto\\
-{\bf Violazione principi:} 3 controllo e libertà dell'utente (uscite indicate chiaramente), 6 assicurare flessibilità ed efficienza d'uso (accelleratori)\\
+{\bf Descrizione:} La creazione di un nuovo account non risulta immediata. Per accedere alla sezione di registrazione bisogna cliccare sul link ``Il mio account'' posto in alto a destra, e successivamente su ``Crea un account''. L'attuale soluzione sembra inizialmente l'accesso a una sezione per chi sia già in possesso di un account, e non per utenti che ne siano sprovvisti. Le figure \ref{fig:homepage1} e \ref{fig:login1} mostrano quanto appena descritto.\\
+{\bf Violazione principi:} 3 controllo e libertà dell'utente (uscite indicate chiaramente), 6 assicurare flessibilità ed efficienza d'uso (acceleratori).\\
 {\bf Criticità:} 3
 \begin{figure}[!h]
 \centering
@@ -18,37 +18,37 @@ Nella sezione che segue, sono riportati i vari problemi di usabilità individuati
 \begin{figure}[!h]
 \centering
 \includegraphics[scale=0.65]{figure/login1.eps}
-\caption{La scritta che permette di registrare un nuovo account non è immediata} \label{fig:login1}
+\caption{Il link che punta alla procedura di registrazione non è posto in evidenza.} \label{fig:login1}
 \end{figure}\\
-\item \underline{Errori nella fase di registrazione}\\
-Questi sono tutti errori che sono individuati nella pagina di registrazione dell'utente, di conseguenza raggruppati in un unico blocco:
+\item \underline{Errori in fase di registrazione}\\
+Tutti questi problemi di usabilità sono individuati nella pagina di registrazione dell'utente, di conseguenza li abbiamo raggruppati assieme:
 \begin{itemize}
-\item {\bf Descrizione:} La compilazione del form di registrazione non specifica quale campo è omesso o errato, ma evidenzia solo il numero dei campo sbagliati. Inoltre la segnalazioni su cosa vi sia d'errato avviene tramite una scritta posta sul campo d'inserimento, ma la scritta di segnalazione è insufficientemente segnalata per due motivi:
+\item {\bf Descrizione:} La compilazione del form di registrazione non specifica quale campo è omesso o errato, ma evidenzia solo il numero dei campo sbagliati. Inoltre la segnalazioni su cosa vi sia d'errato avviene tramite una dicitura posta sul campo d'inserimento, ma essa è insufficientemente segnalata per due motivi:
 \begin{itemize}
-\item viene usato un colore chiaro su sfondo bianco, che rende la scritta poco leggibile
-\item la dimensione del font scleta risulta essere minima rispetto al resto della pagina; risulta facile che passi inoservata
+\item viene usato un colore chiaro su sfondo bianco, che la rende poco leggibile;
+\item la dimensione del font scleta risulta essere piccola rispetto al resto della pagina, risulta facile che passi inoservata.
 \end{itemize}
-{\bf Violazione principi:} 9 permettere all'utente di correggere gli errori e non solo di rilevarli\\
+{\bf Violazione principi:} 9 Permettere all'utente di correggere gli errori e non solo di rilevarli.\\
 {\bf Criticità:} 1
 \item {\bf Descrizione:} Se nella pagina di registrazione si inserisce una password troppo corta il messaggio d'errore restituito è in lingua inglese:
-``Please enter a password that is at least six characters long.''\\
-{\bf Violazione principi:} 2 adeguare il sistema al mondo reale (parlare il linguaggio dell'utente)\\
+``Please enter a password that is at least six characters long.''.\\
+{\bf Violazione principi:} 2 Adeguare il sistema al mondo reale (parlare il linguaggio dell'utente).\\
 {\bf Criticità:} 1
-\item {\bf Descrizione:} Nella pagina di registrazione l'errore riguardante il fatto che la password e la sua conferma non coincidono non viene visualizzato fino a che tutti gli altri errori non sono stati corretti (gli altri errori invece vengono visualizzati assieme)\\
-{\bf Violazione pincipi:} 4 Assicurare consistenza (nell'applicazione, sistema, ambiente), 9 permettere all'utente di correggere gli errori e non solo di rilevarli\\
+\item {\bf Descrizione:} Nella pagina di registrazione l'errore riguardante il fatto che la password e la sua conferma non coincidono non viene visualizzato fino a che tutti gli altri errori non sono stati corretti (gli altri errori invece vengono visualizzati assieme).\\
+{\bf Violazione pincipi:} 4 Assicurare consistenza (nell'applicazione, sistema, ambiente), 9 permettere all'utente di correggere gli errori e non solo di rilevarli.\\
 {\bf Criticità:} 2
-\item {\bf Descrizione:} Se nella pagina di registrazione si inserisce una password contente caratteri speciali, oltre a lettere e numeri, (es: @) l'errore restituito è : Immettere una password che contenga almento una lettera e un numero. Il quale non da alcuna informazioni riguardo l'effettivo errore (e tra l'altro contiene un errore grammaticale)\\
-{\bf Violazione principi:} 7 Visualizzare tutte e sole le informazioni necessarie, 8 Prevenire gli errori, 9 permettere all'utente di correggere gli errori e non solo di rilevarli\\
+\item {\bf Descrizione:} Se nella pagina di registrazione si inserisce una password contente caratteri speciali, oltre a lettere e numeri, (es: @) l'errore restituito è : ``Immettere una password che contenga almento una lettera e un numero.''. Esso non da alcuna informazioni riguardo all'effettivo errore, contiene inoltre un errore grammaticale.\\
+{\bf Violazione principi:} 7 Visualizzare tutte e sole le informazioni necessarie, 8 Prevenire gli errori, 9 permettere all'utente di correggere gli errori e non solo di rilevarli.\\
 {\bf Criticità:} 1
 \begin{figure}[!h]
 \centering
 \includegraphics[scale=0.55]{figure/creazione_account.eps}
-\caption{Errori nella creazione dell'account. (a) Indicazione incompleta sui capi errati (b) segnalazioni in lingua inglese} \label{fig:account}
+\caption{Errori nella creazione dell'account. (a) Indicazione incompleta sui capi errati (b) segnalazioni in lingua inglese.} \label{fig:account}
 \end{figure}\\
 \end{itemize}
 \item \underline{Condizioni contrattuali}\\
-{\bf Descrizione:} La pagina contente tutte le norme sulla privacy, condizioni contrattuali e ogni altro riferimento a trattamenti dei dati dell'utente non viene visualizzata di default durante la registrazione; inoltre il relativo link non per accedere a tali informazioni non è posto in sufficiente evidenza, in quando è posto a fondo pagina senza essere messo in risalto in maniera adeguata (figura: \ref{fig:privacy})\\
-{\bf Violazione principi:} 7 Visualizzare tutte e sole le informazioni necessarie, 10 Help e documentazione\\
+{\bf Descrizione:} La pagina contente le norme sulla privacy, le condizioni contrattuali e ogni altro riferimento a trattamenti dei dati dell'utente non viene mostrata durante la registrazione. Inoltre il relativo link per accedere a tali informazioni non è posto in sufficiente evidenza, in quando è a fondo pagina senza essere messo in risalto in maniera adeguata (figura: \ref{fig:privacy}). Per poterlo vedere è necessario far sorrere la pagina fino in fondo.\\
+{\bf Violazione principi:} 7 Visualizzare tutte e sole le informazioni necessarie, 10 Help e documentazione.\\
 {\bf Criticità:} 2
 \begin{figure}[!h]
 \centering
@@ -57,26 +57,26 @@ Questi sono tutti errori che sono individuati nella pagina di registrazione dell
 \label{fig:privacy}
 \end{figure}
 \item \underline{Accesso al proprio account}\\
-{\bf Descrizione:} Se si cerca di effettuare il login cliccando su ``Il mio account'' e poi si chiude il banner di login che compare si rimane per un tempo indefinito in una pagina che riporta: ``Attendere. Convalida di nome utente e password in corso... Si avrà accesso all'account personale Dell tra breve.''\\
+{\bf Descrizione:} Quando si cerca di effettuare il login cliccando su ``Il mio account'', e poi si chiude il banner di login appena comparso, si rimane per un tempo indefinito in una pagina che riporta: ``Attendere. Convalida di nome utente e password in corso... Si avrà accesso all'account personale Dell tra breve.''.\\
 {\bf Violazione principi:} 4 Assicurare consistenza (nell'applicazione, sistema, ambiente), 8 Prevenire gli errori, 9 Permettere all'utente di correggere gli errori e non solo di rilevarli.
 {\bf Criticità:} 3
 \item \underline{Bug procedura di sicurezza dell'account}\\
-{\bf Descrizione:} Se durante la procedura di login si inserisce una password errata per sei volte l'account viene disattivato. Oltrepassati tale numero di tentativi l'account risulta comunque attivo\\
-{\bf Violazione principi:} 4 Assicurare consistenza (nell'applicazione, sistema, ambiente)\\
+{\bf Descrizione:} Se durante la procedura di login si inserisce una password errata per sei volte l'account dovrebbe essere disattivato. Oltrepassati tale numero di tentativi l'account risulta comunque attivo.\\
+{\bf Violazione principi:} 4 Assicurare consistenza (nell'applicazione, sistema, ambiente).\\
 {\bf Criticità:} 2
 \item \underline{Logout dal sistema}\\
-{\bf Descrizione:} Per tutte le pagine non è evidenziato il logout in maniera soddisfacente. Segnalato solo dalla domanda ``L'utente corrente non è <nome dell'utente>'', cme mostrato in figura \ref{fig:logout}.\\
-{\bf Violazione principi:} 3 Controllo dell'utente e libertà (uscite indicate chiaramente)\\
+{\bf Descrizione:} In ogni pagina il link di logout non è chiaramente individuabile: esso è segnalato implicitamente dalla domanda ``L'utente corrente non è <nome dell'utente>'', come mostrato in figura \ref{fig:logout}.\\
+{\bf Violazione principi:} 3 Controllo dell'utente e libertà (uscite indicate chiaramente).\\
 {\bf Criticità:} 2
 \begin{figure}[!h]
 \centering
 \includegraphics[scale=0.65]{figure/logout.eps}
-\caption{Dicitura che effettua il logout non chiara: sembrerebbe più una segnalazione d'errore}
+\caption{Dicitura per il logout non chiara: sembrerebbe più una segnalazione d'errore.}
 \label{fig:logout}
 \end{figure}
 \item \underline{Stato del sistema}\\
-{\bf Descrizione:} Una volta effettuata l'operazione di login, se si effettua il ritorno all'homepage, il sistema perde lo stato e non mostra la dicitura che l'utente risulta loggato\\
-{\bf Violazione principi:} 1 Far vedere lo stato del sistema (feedback)\\
+{\bf Descrizione:} Una volta effettuata l'operazione di login, se si effettua il ritorno all'homepage, il sistema perde lo stato e non mostra che l'utente risulta loggato.\\
+{\bf Violazione principi:} 1 Far vedere lo stato del sistema (feedback).\\
 {\bf Criticità:} 3
 \item \underline{Cancellazione account}\\
 {\bf Descrizione:} Effettuando una ricerca di un'opzione ``cancellazione account'' la ricerca viene fatta di default sui prodotti mostrando che non stati trovati risultati. Se si estende la ricerca alla sezione ``servizi e supporto'' non viene dato alcun tipo di risultato (figura: \ref{fig:cancellazione_account})\\
@@ -89,8 +89,8 @@ Questi sono tutti errori che sono individuati nella pagina di registrazione dell
 \label{fig:cancellazione_account}
 \end{figure}
 \item \underline{Registrazione della e-mail}\\
-{\bf Descrizione:}  Il link ``registrazione e mail'', posto in posizione centrale della pagina, non fornisce nozioni anticipate sul suo effetto. La registrazione al sito internet prevede già la registrazione della propria mail, pertanto è fuorviante questa nuova possibilità d'iscriversi con la propria mail\\
-{\bf Violazione principi:} 7 Visualizzare tutte e sole le informazioni necessarie\\
+{\bf Descrizione:}  Il link ``registrazione e mail'', posto in posizione centrale della pagina è ambiguo, non è immediato capire a cosa serva tale registrazione. Difatti la registrazione al sito  Dell prevede già la registrazione della propria mail, pertanto è fuorviante questa nuova possibilità d'iscriversi con la propria mail.\\
+{\bf Violazione principi:} 7 Visualizzare tutte e sole le informazioni necessarie.\\
 {\bf Criticità:} 2
 \begin{figure}[!h]
 \centering
@@ -98,8 +98,8 @@ Questi sono tutti errori che sono individuati nella pagina di registrazione dell
 \caption{Posizione del link ``registrazione e-mail''}
 \label{fig:registrazione_mail}
 \end{figure}
-\item \underline{Registrazione della e-mail}\\
-{\bf Descrizione:} Successivamente all'errore menzionato in precedenza, tale link comporta l'apertura di una nuova finestra, la quale permette all'utente d'iscriversi, tramite un form, a un concorso: oltre al form di registrazione la pagina non contiene alcun tipo di informazione aggiuntiva, e i link di collegamento sono piccoli e tendono a passare inosservati\\
+\item \underline{Registrazione della e-mail 2}\\
+{\bf Descrizione:} Se si clicca il link descritto nell'errore precedente, si apre una nuova finestra, la quale permette all'utente d'iscriversi, tramite un form, a un concorso: oltre al form di registrazione la pagina non contiene alcun tipo di informazione aggiuntiva, e i link di collegamento sono piccoli e tendono a passare inosservati\\
 {\bf Violazione principi:} 4 Assicurare consistenza (nell'applicazione, sistema, ambiente), 7 Visualizzare tutte e sole le informazioni necessarie\\
 {\bf Criticità:} 1
 \begin{figure}[!h]
