@@ -83,35 +83,41 @@ numberstyle=\tiny}
 %-------------------------------
 \makesavenoteenv{tabular}
 
+\hyphenation{per-mes-so a-na-liz-za-re si-mu-la-zio-ne ge-stio-ne o-pe-ra-zio-ni ra-pi-di-tà se-gno u-ti-liz-zo im-me-dia-ta-men-te que-sta uten-te fun-zio-na-li-tà com-pa-ti-bi-li-tà dis-po-si-zio-ne ne-ces-sa-ria in-ge-gne-ri-a ne-ces-sa-rio auto-rizzati ra-pi-da disposi-zione a-spet-ti mo-di-fi-ca dif-fe-ren-ti} 
+
 \begin{document}
+
+\pagenumbering{roman}
+
 \input{fronte.tex}
+
 \tableofcontents
-
-
 
 % ----- capitoli  -----
 
 \cleardoublepage
 \pagenumbering{arabic}
+\cleardoublepage
 \input{Introduzione.tex}
+
 \cleardoublepage
 \input{capitolo2.tex}
+
 \cleardoublepage
 \input{capitolo3.tex}
 \cleardoublepage
 \input{capitolo4.tex}
-% ----------------------------
+
+% ----- appendici  -----
+
+%\appendix
 
 %\cleardoublepage
-%\addcontentsline{toc}{chapter}{Bibliografia} \nocite{*}
-%\bibliographystyle{ieeetr}
-%\bibliography{bozza-doc}
-%\input{biblio.tex}
-%\addcontentsline{toc}{chapter}{\numberline{}\contentsname}
-%\tableofcontents
-%\addcontentsline{toc}{chapter}{\numberline{}\listfigurename}
-%\listoffigures
-%\addcontentsline{toc}{chapter}{\numberline{}\listtablename}
-%\listoftables
+%\input{appendixA.tex}
+
+%\cleardoublepage
+%\input{appendixB.tex}
+
+% ----------------------------
 
 \end{document}

@@ -1,39 +1,55 @@
 \select@language {italian}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {1.1}{\ignorespaces Home page del sito web www.dell.it\relax }}{2}{figure.caption.3}
-\contentsline {figure}{\numberline {1.2}{\ignorespaces Home page sezione $"$Per la casa$"$. Si pu\`o notare il men\`u a discesa della sezione $"$Offerte speciali$"$\relax }}{4}{figure.caption.4}
-\contentsline {figure}{\numberline {1.3}{\ignorespaces Fondo pagina della sezione $"$Per la casa$"$ sezione $"$Acquisti$"$\relax }}{6}{figure.caption.5}
-\contentsline {figure}{\numberline {1.4}{\ignorespaces Home page sezione $"$Per la casa$"$. Si pu\`o notare il men\`u a discesa della sezione $"$Offerte speciali$"$\relax }}{8}{figure.caption.6}
+\contentsline {figure}{\numberline {1.1}{\ignorespaces Home page del sito web www.dell.it\relax }}{2}{figure.caption.2}
+\contentsline {figure}{\numberline {1.2}{\ignorespaces Home page sezione ``Per la casa''. Si pu\`o notare il men\`u a discesa della sezione ``Offerte speciali''\relax }}{4}{figure.caption.3}
+\contentsline {figure}{\numberline {1.3}{\ignorespaces Fondo pagina della sezione ``Per la casa'' sezione ``Acquisti''\relax }}{6}{figure.caption.4}
+\contentsline {figure}{\numberline {1.4}{\ignorespaces Home page sezione ``Per la casa''. Si pu\`o notare il men\`u a discesa della sezione ``Offerte speciali''\relax }}{8}{figure.caption.5}
+\contentsline {figure}{\numberline {1.5}{\ignorespaces Grafico di Grantt per la pianificazione del lavoro\relax }}{12}{figure.caption.6}
 \addvspace {10\p@ }
-\contentsline {figure}{\numberline {2.1}{\ignorespaces Curva teorica di Nielsen che lega il numero di valutatori ed il numero di problemi individuati\relax }}{13}{figure.caption.7}
-\contentsline {figure}{\numberline {2.2}{\ignorespaces Home page del sito web www.dell.it\relax }}{17}{figure.caption.8}
-\contentsline {figure}{\numberline {2.3}{\ignorespaces La scritta che permette di registrare un nuovo account non \`e immediata\relax }}{17}{figure.caption.9}
-\contentsline {figure}{\numberline {2.4}{\ignorespaces Errori nella creazione dell'account. (a) Indicazione incompleta sui capi errati (b) segnalazioni in lingua inglese\relax }}{19}{figure.caption.10}
-\contentsline {figure}{\numberline {2.5}{\ignorespaces Link per mostrare le condizioni contrattuali per l'uso del sito web\relax }}{20}{figure.caption.11}
-\contentsline {figure}{\numberline {2.6}{\ignorespaces Dicitura che effettua il logout non chiara: sembrerebbe pi\`u una segnalazione d'errore\relax }}{21}{figure.caption.12}
-\contentsline {figure}{\numberline {2.7}{\ignorespaces Schermata che mostra i risultati della ricerca su come cancellare il proprio account dal sito della Dell\relax }}{22}{figure.caption.13}
-\contentsline {figure}{\numberline {2.8}{\ignorespaces Posizione del link ``registrazione e-mail''\relax }}{22}{figure.caption.14}
-\contentsline {figure}{\numberline {2.9}{\ignorespaces Come si pu\`o notare nella finestra vengono omesse tutte le informazioni principali e link non sono messi con sufficiente risalto\relax }}{23}{figure.caption.15}
-\contentsline {figure}{\numberline {2.10}{\ignorespaces Risultati della ricerca del prodotto ``notebook'' ordinati per attinenza\relax }}{23}{figure.caption.16}
-\contentsline {figure}{\numberline {2.11}{\ignorespaces Il banner per avviare la chata naviga all'interno della pagina nascondendo informazioni che possono essere utili all'utente\relax }}{24}{figure.caption.17}
-\contentsline {figure}{\numberline {2.12}{\ignorespaces Si pu\`o vedere come la pagina caricata sia priva d'informazioni utili\relax }}{25}{figure.caption.18}
-\contentsline {figure}{\numberline {2.13}{\ignorespaces Evidenziata in rosso la dicitura sbagliata del link con il titolo della pagina\relax }}{25}{figure.caption.19}
-\contentsline {figure}{\numberline {2.14}{\ignorespaces Numero di link inferiore ai modelli proposti\relax }}{26}{figure.caption.20}
-\contentsline {figure}{\numberline {2.15}{\ignorespaces Prima scelta della tipologia di assistenza\relax }}{28}{figure.caption.21}
-\contentsline {figure}{\numberline {2.16}{\ignorespaces La scelta dell'assistenza viene riproposta all'utente una seconda volta, espandendo alcune opzioni\relax }}{28}{figure.caption.22}
-\contentsline {figure}{\numberline {2.17}{\ignorespaces La pagina ``esplicativa'' delle informazioni sull'estensione di garanzia\relax }}{30}{figure.caption.23}
-\contentsline {figure}{\numberline {2.18}{\ignorespaces La figura mette in evidenza come sia mal gestito lo spazio della pagina\relax }}{30}{figure.caption.24}
-\contentsline {figure}{\numberline {2.19}{\ignorespaces Nella pagina di cui sopra si ha uno scorcio, non ha alcun link d'annullamento, ma mostra solo un form per i dati dell'utente\relax }}{31}{figure.caption.25}
-\contentsline {figure}{\numberline {2.20}{\ignorespaces La figura mostra come un'opzione consentita all'utente produca un errore d'incompatibilit\`a\relax }}{31}{figure.caption.26}
-\contentsline {figure}{\numberline {2.21}{\ignorespaces La figura mostra in evidenza che alcuni campi non vengono tradotti\relax }}{32}{figure.caption.27}
-\contentsline {figure}{\numberline {2.22}{\ignorespaces La pagina di supporto. In rosso \`e evidenziato il link citato nella descrizione del problema\relax }}{33}{figure.caption.28}
-\contentsline {figure}{\numberline {2.23}{\ignorespaces La pagina di spiegazioni riportante l'errore di documento non trovato\relax }}{33}{figure.caption.29}
-\contentsline {figure}{\numberline {2.24}{\ignorespaces La pagina di errore per privilegi mancanti\relax }}{34}{figure.caption.30}
-\contentsline {figure}{\numberline {2.25}{\ignorespaces Elementi costitutivi della categoria degli ``Altoparlanti stereo e TV''\relax }}{34}{figure.caption.31}
-\contentsline {figure}{\numberline {2.26}{\ignorespaces Nella nuova finestra si effettua il login, e lo stato dell'utente \`e modificato come si pu\`o notare nel riquadro rosso\relax }}{35}{figure.caption.32}
-\contentsline {figure}{\numberline {2.27}{\ignorespaces Tornando alla pagina si pu\`o notare in rosso che lo stato dell'utente non \`e stato aggiornato\relax }}{36}{figure.caption.33}
-\contentsline {figure}{\numberline {2.28}{\ignorespaces Errore di dicitura: solitamente per ``tipo file'' non si esprime il supporto, ma l'estensione\relax }}{37}{figure.caption.34}
-\contentsline {figure}{\numberline {2.29}{\ignorespaces Evidenziata in rosso la scritta che ha la stessa colorazione di un link\relax }}{37}{figure.caption.35}
-\contentsline {figure}{\numberline {2.30}{\ignorespaces La cartina con evidenziata l'area asiatica che per\`o viene riconosciut\`a come ``Europa, Medio Oriente, Africa''\relax }}{38}{figure.caption.36}
+\contentsline {figure}{\numberline {2.1}{\ignorespaces Curva teorica di Nielsen che lega il numero di valutatori ed il numero di problemi individuati\relax }}{14}{figure.caption.7}
+\contentsline {figure}{\numberline {2.2}{\ignorespaces Home page del sito web www.dell.it\relax }}{18}{figure.caption.8}
+\contentsline {figure}{\numberline {2.3}{\ignorespaces La scritta che permette di registrare un nuovo account non \`e immediata\relax }}{19}{figure.caption.9}
+\contentsline {figure}{\numberline {2.4}{\ignorespaces Errori nella creazione dell'account. (a) Indicazione incompleta sui capi errati (b) segnalazioni in lingua inglese\relax }}{20}{figure.caption.10}
+\contentsline {figure}{\numberline {2.5}{\ignorespaces Link per mostrare le condizioni contrattuali per l'uso del sito web\relax }}{21}{figure.caption.11}
+\contentsline {figure}{\numberline {2.6}{\ignorespaces Dicitura che effettua il logout non chiara: sembrerebbe pi\`u una segnalazione d'errore\relax }}{22}{figure.caption.12}
+\contentsline {figure}{\numberline {2.7}{\ignorespaces Schermata che mostra i risultati della ricerca su come cancellare il proprio account dal sito della Dell\relax }}{23}{figure.caption.13}
+\contentsline {figure}{\numberline {2.8}{\ignorespaces Posizione del link ``registrazione e-mail''\relax }}{23}{figure.caption.14}
+\contentsline {figure}{\numberline {2.9}{\ignorespaces Come si pu\`o notare nella finestra vengono omesse tutte le informazioni principali e link non sono messi con sufficiente risalto\relax }}{24}{figure.caption.15}
+\contentsline {figure}{\numberline {2.10}{\ignorespaces Risultati della ricerca del prodotto ``notebook'' ordinati per attinenza\relax }}{24}{figure.caption.16}
+\contentsline {figure}{\numberline {2.11}{\ignorespaces Il banner per avviare la chata naviga all'interno della pagina nascondendo informazioni che possono essere utili all'utente\relax }}{25}{figure.caption.17}
+\contentsline {figure}{\numberline {2.12}{\ignorespaces Si pu\`o vedere come la pagina caricata sia priva d'informazioni utili\relax }}{26}{figure.caption.18}
+\contentsline {figure}{\numberline {2.13}{\ignorespaces Evidenziata in rosso la dicitura sbagliata del link con il titolo della pagina\relax }}{26}{figure.caption.19}
+\contentsline {figure}{\numberline {2.14}{\ignorespaces Numero di link inferiore ai modelli proposti\relax }}{27}{figure.caption.20}
+\contentsline {figure}{\numberline {2.15}{\ignorespaces Prima scelta della tipologia di assistenza\relax }}{29}{figure.caption.21}
+\contentsline {figure}{\numberline {2.16}{\ignorespaces La scelta dell'assistenza viene riproposta all'utente una seconda volta, espandendo alcune opzioni\relax }}{29}{figure.caption.22}
+\contentsline {figure}{\numberline {2.17}{\ignorespaces La pagina ``esplicativa'' delle informazioni sull'estensione di garanzia\relax }}{31}{figure.caption.23}
+\contentsline {figure}{\numberline {2.18}{\ignorespaces La figura mette in evidenza come sia mal gestito lo spazio della pagina\relax }}{31}{figure.caption.24}
+\contentsline {figure}{\numberline {2.19}{\ignorespaces Nella pagina di cui sopra si ha uno scorcio, non ha alcun link d'annullamento, ma mostra solo un form per i dati dell'utente\relax }}{32}{figure.caption.25}
+\contentsline {figure}{\numberline {2.20}{\ignorespaces La figura mostra come un'opzione consentita all'utente produca un errore d'incompatibilit\`a\relax }}{32}{figure.caption.26}
+\contentsline {figure}{\numberline {2.21}{\ignorespaces La figura mostra in evidenza che alcuni campi non vengono tradotti\relax }}{33}{figure.caption.27}
+\contentsline {figure}{\numberline {2.22}{\ignorespaces La pagina di supporto. In rosso \`e evidenziato il link citato nella descrizione del problema\relax }}{34}{figure.caption.28}
+\contentsline {figure}{\numberline {2.23}{\ignorespaces La pagina di spiegazioni riportante l'errore di documento non trovato\relax }}{34}{figure.caption.29}
+\contentsline {figure}{\numberline {2.24}{\ignorespaces La pagina di errore per privilegi mancanti\relax }}{35}{figure.caption.30}
+\contentsline {figure}{\numberline {2.25}{\ignorespaces Elementi costitutivi della categoria degli ``Altoparlanti stereo e TV''\relax }}{35}{figure.caption.31}
+\contentsline {figure}{\numberline {2.26}{\ignorespaces Nella nuova finestra si effettua il login, e lo stato dell'utente \`e modificato come si pu\`o notare nel riquadro rosso\relax }}{36}{figure.caption.32}
+\contentsline {figure}{\numberline {2.27}{\ignorespaces Tornando alla pagina si pu\`o notare in rosso che lo stato dell'utente non \`e stato aggiornato\relax }}{37}{figure.caption.33}
+\contentsline {figure}{\numberline {2.28}{\ignorespaces Errore di dicitura: solitamente per ``tipo file'' non si esprime il supporto, ma l'estensione\relax }}{38}{figure.caption.34}
+\contentsline {figure}{\numberline {2.29}{\ignorespaces Evidenziata in rosso la scritta che ha la stessa colorazione di un link\relax }}{38}{figure.caption.35}
+\contentsline {figure}{\numberline {2.30}{\ignorespaces La cartina con evidenziata l'area asiatica che per\`o viene riconosciut\`a come ``Europa, Medio Oriente, Africa''\relax }}{39}{figure.caption.36}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {3.1}{\ignorespaces Grafico media delle difficolt dei due gruppi d'utenti esaminati\relax }}{49}{figure.caption.41}
+\contentsline {figure}{\numberline {3.2}{\ignorespaces Grafico riportante il tempo impiegato dagli utenti per la risoluzione dei vari task\relax }}{51}{figure.caption.43}
+\contentsline {figure}{\numberline {3.3}{\ignorespaces Grafico riportante il numero di errori commessi dagli utenti nella risoluzione dei vari task\relax }}{52}{figure.caption.44}
 \addvspace {10\p@ }
+\contentsline {figure}{\numberline {4.1}{\ignorespaces Evidenziato in rosso il nuovo link all'Home page. Questo mock-up si applica a tutte le pagine del sito.\relax }}{55}{figure.caption.45}
+\contentsline {figure}{\numberline {4.2}{\ignorespaces Evidenziato in rosso il nuovo link all'Home page. Questo mock-up si applica a tutte le pagine del sito.\relax }}{55}{figure.caption.46}
+\contentsline {figure}{\numberline {4.3}{\ignorespaces Evidenziate in rosso le modifiche apportate alla home page quando l'utente \`e loggato.\relax }}{55}{figure.caption.47}
+\contentsline {figure}{\numberline {4.4}{\ignorespaces Evidenziate in rosso le modifiche apportate alla home page quando l'utente \`e loggato\relax }}{57}{figure.caption.48}
+\contentsline {figure}{\numberline {4.5}{\ignorespaces In verde sono evidenziate le parti aggiunte che consentono all'utente di cancellare il proprio account.\relax }}{58}{figure.caption.49}
+\contentsline {figure}{\numberline {4.6}{\ignorespaces Riquadrati in rosso la modfica del colo dei link gi\`a selezionati dall'utente\relax }}{58}{figure.caption.50}
+\contentsline {figure}{\numberline {4.7}{\ignorespaces il men\`u viene espanso leggermente per evitare la scroll bar, come invece era fatto nella versione originale (figura:\ref {fig:manutenzione})\relax }}{59}{figure.caption.51}
+\contentsline {figure}{\numberline {4.8}{\ignorespaces Nel caso il form del login non reindirizzi automaticamente, viene data la possibilit\`a all'utente di agire manualmente\relax }}{59}{figure.caption.52}
+\contentsline {figure}{\numberline {4.9}{\ignorespaces Mock-up sulla pagina di configurazione del computer\relax }}{63}{figure.caption.53}
+\contentsline {figure}{\numberline {4.10}{\ignorespaces Mock-up della sezione acquisti\relax }}{64}{figure.caption.54}
+\contentsline {figure}{\numberline {4.11}{\ignorespaces Home page della sezione di supporto prima delle modifiche\relax }}{65}{figure.caption.55}
+\contentsline {figure}{\numberline {4.12}{\ignorespaces Mock-up della home page della sezione di supporto\relax }}{66}{figure.caption.56}

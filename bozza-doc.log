@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=latex 2011.2.27)  28 OCT 2011 12:16
+This is pdfTeX, Version 3.1415926-1.40.11 (MiKTeX 2.9) (preloaded format=latex 2011.2.27)  2 NOV 2011 15:57
 entering extended mode
 **bozza-doc.tex
 ("C:\Users\Lombardi Luca\Desktop\ISI\Relazione\bozza-doc.tex"
@@ -524,29 +524,29 @@ Package Fancyhdr Warning: \fancyhead's `E' option without twoside option is use
 less on input line 68.
 
 ("C:\Users\Lombardi Luca\Desktop\ISI\Relazione\bozza-doc.aux")
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 86.
-LaTeX Font Info:    ... okay on input line 86.
-LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 86.
-LaTeX Font Info:    Try loading font information for LGR+cmr on input line 86.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 88.
+LaTeX Font Info:    ... okay on input line 88.
+LaTeX Font Info:    Checking defaults for LGR/cmr/m/n on input line 88.
+LaTeX Font Info:    Try loading font information for LGR+cmr on input line 88.
 
 ("C:\Program Files\MiKTeX 2.9\tex\generic\babel\lgrcmr.fd"
 File: lgrcmr.fd 2008/06/17 v2.3 Greek Computer Modern
 )
-LaTeX Font Info:    ... okay on input line 86.
+LaTeX Font Info:    ... okay on input line 88.
 \AtBeginShipoutBox=\box38
-Package hyperref Info: Link coloring ON on input line 86.
+Package hyperref Info: Link coloring ON on input line 88.
 
 ("C:\Program Files\MiKTeX 2.9\tex\latex\hyperref\nameref.sty"
 Package: nameref 2010/04/30 v2.40 Cross-referencing by name of section
@@ -559,16 +559,16 @@ Package: gettitlestring 2009/12/18 v1.3 Cleanup title references (HO)
 )
 \c@section@level=\count142
 )
-LaTeX Info: Redefining \ref on input line 86.
-LaTeX Info: Redefining \pageref on input line 86.
-LaTeX Info: Redefining \nameref on input line 86.
+LaTeX Info: Redefining \ref on input line 88.
+LaTeX Info: Redefining \pageref on input line 88.
+LaTeX Info: Redefining \nameref on input line 88.
 
 ("C:\Users\Lombardi Luca\Desktop\ISI\Relazione\bozza-doc.out")
 ("C:\Users\Lombardi Luca\Desktop\ISI\Relazione\bozza-doc.out")
 \@outlinefile=\write3
 Package caption Info: Begin \AtBeginDocument code.
 Package caption3 Info: subfig package 1.2 or 1.3 is loaded.
-LaTeX Info: Redefining \subref on input line 86.
+LaTeX Info: Redefining \subref on input line 88.
 Package caption Info: listings package is loaded.
 Package caption Info: longtable package is loaded.
 
@@ -654,6 +654,7 @@ LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10.95> not available
  [1
 
 
+
 ]
 ("C:\Users\Lombardi Luca\Desktop\ISI\Relazione\section1_1.tex"
 File: figure/home_page.eps Graphic file (type eps)
@@ -721,8 +722,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 2--6
 ("C:\Users\Lombardi Luca\Desktop\ISI\Relazione\capitolo2.tex"
 Capitolo 2.
 ("C:\Users\Lombardi Luca\Desktop\ISI\Relazione\section2_1.tex"
-File: figure/grafico_valutatori_errori.eps Graphic file (type eps)
+Underfull \hbox (badness 10000) in paragraph at lines 2--1
 
+ []
+
+File: figure/grafico_valutatori_errori.eps Graphic file (type eps)
 <figure/grafico_valutatori_errori.eps> [13
 
 
@@ -732,8 +736,11 @@ Underfull \hbox (badness 10000) in paragraph at lines 33--40
 
  []
 
-[16]) ("C:\Users\Lombardi Luca\Desktop\ISI\Relazione\section2_3.tex")
-("C:\Users\Lombardi Luca\Desktop\ISI\Relazione\section2_4.tex"
+[16]) ("C:\Users\Lombardi Luca\Desktop\ISI\Relazione\section2_3.tex"
+
+LaTeX Warning: Reference `analisi_dati' on page 17 undefined on input line 2.
+
+) ("C:\Users\Lombardi Luca\Desktop\ISI\Relazione\section2_4.tex"
 Underfull \hbox (badness 10000) in paragraph at lines 2--3
 
  []
@@ -743,7 +750,7 @@ File: figure/home_page_modificata.eps Graphic file (type eps)
  <figure/home_page_modificata.eps>
 File: figure/login1.eps Graphic file (type eps)
  <figure/login1.eps>
-Underfull \hbox (badness 10000) in paragraph at lines 9--24
+Underfull \hbox (badness 10000) in paragraph at lines 9--23
 
  []
 
@@ -753,7 +760,7 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 [18]
 File: figure/creazione_account.eps Graphic file (type eps)
  <figure/creazione_account.eps>
-Underfull \hbox (badness 10000) in paragraph at lines 41--49
+Underfull \hbox (badness 10000) in paragraph at lines 40--48
 
  []
 
@@ -800,30 +807,22 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 File: figure/televisioni2.eps Graphic file (type eps)
 <figure/televisioni2.eps> [25]
 File: figure/specifiche.eps Graphic file (type eps)
- <figure/specifiche.eps> [26]
-File: figure/schermata_incasinata.eps Graphic file (type eps)
-
-<figure/schermata_incasinata.eps> [27] [28]
+ <figure/specifiche.eps> [26] [27]
 File: figure/assistenza1.eps Graphic file (type eps)
- <figure/assistenza1.eps>
+
+<figure/assistenza1.eps>
 File: figure/assistenza2.eps Graphic file (type eps)
-
-<figure/assistenza2.eps>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+ <figure/assistenza2.eps>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[29]
-Overfull \hbox (4.5351pt too wide) in paragraph at lines 232--237
-\T1/cmr/m/n/10.95 ([][][][][][] 
- []
 
-[30]
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[28] [29]
 File: figure/garanzia2.eps Graphic file (type eps)
  <figure/garanzia2.eps>
-Overfull \hbox (40.65189pt too wide) in paragraph at lines 257--258
+Overfull \hbox (40.65189pt too wide) in paragraph at lines 247--248
  [][][] 
  []
 
@@ -831,44 +830,35 @@ Overfull \hbox (40.65189pt too wide) in paragraph at lines 257--258
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 File: figure/riepilogo1.eps Graphic file (type eps)
-<figure/riepilogo1.eps> [31]
+<figure/riepilogo1.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: figure/cassa1.eps Graphic file (type eps)
- <figure/cassa1.eps> [32]
+<figure/cassa1.eps> [30]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: figure/chainlink.eps Graphic file (type eps)
- <figure/chainlink.eps>
-Underfull \hbox (badness 1052) in paragraph at lines 288--288
-[]\T1/cmr/m/n/10.95 Figura 2.21: |La fi-gu-ra mo-stra co-me un'op-zio-ne con-se
+<figure/chainlink.eps>
+Underfull \hbox (badness 1052) in paragraph at lines 278--278
+[]\T1/cmr/m/n/10.95 Figura 2.20: |La fi-gu-ra mo-stra co-me un'op-zio-ne con-se
 n-ti-ta al-l'u-ten-te pro-du-ca un er-ro-re
  []
 
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
+[31]
 File: figure/stato_ordine.eps Graphic file (type eps)
-<figure/stato_ordine.eps>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[33] [34]
+ <figure/stato_ordine.eps> [32] [33]
 File: figure/supporto_raid1.eps Graphic file (type eps)
  <figure/supporto_raid1.eps>
-Overfull \hbox (0.85631pt too wide) in paragraph at lines 324--324
-[]\T1/cmr/m/n/10.95 Figura 2.23: |La pa-gi-na di sup-por-to. In [][][][][][] 
- []
-
 File: figure/supporto_raid2.eps Graphic file (type eps)
+
 <figure/supporto_raid2.eps>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
 File: figure/privilegi.eps Graphic file (type eps)
-<figure/privilegi.eps> [35]
+ <figure/privilegi.eps> [34]
 File: figure/sintonizzatore.eps Graphic file (type eps)
- <figure/sintonizzatore.eps>
 
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[36]
+<figure/sintonizzatore.eps> [35]
 File: figure/riciclo1.eps Graphic file (type eps)
  <figure/riciclo1.eps>
 File: figure/riciclo2.eps Graphic file (type eps)
@@ -876,74 +866,30 @@ File: figure/riciclo2.eps Graphic file (type eps)
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[37]
+[36]
 File: figure/driver.eps Graphic file (type eps)
- <figure/driver.eps> [38]
+ <figure/driver.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
 File: figure/manuali1.eps Graphic file (type eps)
- <figure/manuali1.eps>
-File: figure/manutenzione.eps Graphic file (type eps)
- <figure/manutenzione.eps>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[39]
+<figure/manuali1.eps> [37] [38]
 File: figure/cartina.eps Graphic file (type eps)
- <figure/cartina.eps>
+ <figure/cartina.eps> [39]
+File: figure/schermata_incasinata.eps Graphic file (type eps)
+
+<figure/schermata_incasinata.eps>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[40]) ("C:\Users\Lombardi Luca\Desktop\ISI\Relazione\section2_5.tex"
-File: figure/percentuali_esaminatori.eps Graphic file (type eps)
-
-<figure/percentuali_esaminatori.eps> [41]
-File: figure/grafico_problemi_percentuali.eps Graphic file (type eps)
-
-<figure/grafico_problemi_percentuali.eps>
-
-LaTeX Warning: Float too large for page by 51.14429pt on input line 17.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-File: figure/percentuali_singoli_esaminatori_categoria_percezione.eps Graphic f
-ile (type eps)
-<figure/percentuali_singoli_esaminatori_categoria_percezione.eps>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-File: figure/percentuali_singoli_esaminatori_categoria_errori.eps Graphic file 
-(type eps)
-<figure/percentuali_singoli_esaminatori_categoria_errori.eps>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-File: figure/percentuali_singoli_esaminatori_categoria_cognizione.eps Graphic f
-ile (type eps)
-<figure/percentuali_singoli_esaminatori_categoria_cognizione.eps>
-
-LaTeX Warning: Float too large for page by 26.75938pt on input line 38.
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-File: figure/percentuali_criticità.eps Graphic file (type eps)
-<figure/percentuali_criticità.eps>))
-Underfull \hbox (badness 10000) in paragraph at lines 40--99
-
- []
-
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[42] [43] [44] [45] [46] [47] [48]
-("C:\Users\Lombardi Luca\Desktop\ISI\Relazione\capitolo3.tex"
+)) [40] [41] ("C:\Users\Lombardi Luca\Desktop\ISI\Relazione\capitolo3.tex"
 Capitolo 3.
 
 Underfull \hbox (badness 10000) in paragraph at lines 11--13
 
  []
 
-[49
+[42
 
 
 ]
@@ -951,47 +897,47 @@ Underfull \hbox (badness 10000) in paragraph at lines 18--23
 
  []
 
-("C:\Users\Lombardi Luca\Desktop\ISI\Relazione\section3_1.tex" [50]
+("C:\Users\Lombardi Luca\Desktop\ISI\Relazione\section3_1.tex" [43]
 Underfull \hbox (badness 10000) in paragraph at lines 8--12
 
  []
 
-[51] [52]) ("C:\Users\Lombardi Luca\Desktop\ISI\Relazione\section3_2.tex"
-Underfull \hbox (badness 10000) in paragraph at lines 2--16
+[44] [45]) ("C:\Users\Lombardi Luca\Desktop\ISI\Relazione\section3_2.tex"
+Underfull \hbox (badness 10000) in paragraph at lines 2--15
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--16
+Underfull \hbox (badness 10000) in paragraph at lines 2--15
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--16
+Underfull \hbox (badness 10000) in paragraph at lines 2--15
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--16
+Underfull \hbox (badness 10000) in paragraph at lines 2--15
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--16
+Underfull \hbox (badness 10000) in paragraph at lines 2--15
 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 2--16
+Underfull \hbox (badness 10000) in paragraph at lines 2--15
 
  []
 
-[53]
-Underfull \hbox (badness 10000) in paragraph at lines 22--23
+[46]
+Underfull \hbox (badness 10000) in paragraph at lines 21--22
 
  []
 
-[54]) ("C:\Users\Lombardi Luca\Desktop\ISI\Relazione\section3_3.tex" [55]
+[47]) ("C:\Users\Lombardi Luca\Desktop\ISI\Relazione\section3_3.tex" [48]
 File: figure/grafico_difficolta.eps Graphic file (type eps)
 
 <figure/grafico_difficolta.eps>
@@ -1011,11 +957,11 @@ LaTeX Warning: Float too large for page by 1.21315pt on input line 31.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-)) [56]
+)) [49]
 
-LaTeX Warning: Text page 57 contains only floats.
+LaTeX Warning: Text page 50 contains only floats.
 
-[57] [58] [59] [60] ("C:\Users\Lombardi Luca\Desktop\ISI\Relazione\capitolo4.te
+[50] [51] [52] [53] ("C:\Users\Lombardi Luca\Desktop\ISI\Relazione\capitolo4.te
 x"
 Capitolo 4.
 
@@ -1023,7 +969,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 9--14
 
  []
 
-[61
+[54
 
 
 ] ("C:\Users\Lombardi Luca\Desktop\ISI\Relazione\section4_1.tex"
@@ -1035,7 +981,7 @@ File: figure/mock_up_home_page2.eps Graphic file (type eps)
 File: figure/mock_up_home_page_loggato.eps Graphic file (type eps)
 
 <figure/mock_up_home_page_loggato.eps>
-Underfull \hbox (badness 10000) in paragraph at lines 2--27
+Underfull \hbox (badness 10000) in paragraph at lines 2--28
 
  []
 
@@ -1048,57 +994,82 @@ LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[62] [63]
-Underfull \hbox (badness 10000) in paragraph at lines 35--36
+[55] [56]
+Underfull \hbox (badness 10000) in paragraph at lines 36--37
 
  []
 
+[57]
 File: figure/mock_up_fom_login.eps Graphic file (type eps)
-<figure/mock_up_fom_login.eps>
-
-LaTeX Warning: `!h' float specifier changed to `!ht'.
-
-[64]
+ <figure/mock_up_fom_login.eps>
 File: figure/mock_up_cancellazione.eps Graphic file (type eps)
  <figure/mock_up_cancellazione.eps>
-Underfull \hbox (badness 10000) in paragraph at lines 54--56
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 55--57
 
  []
 
-[65]
 File: figure/mock_up_link_usati.eps Graphic file (type eps)
- <figure/mock_up_link_usati.eps>
+<figure/mock_up_link_usati.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+[58]
 File: figure/mock_up_manutenzione.eps Graphic file (type eps)
  <figure/mock_up_manutenzione.eps>
-File: figure/mock_up_login_reindirizzo.eps Graphic file (type eps)
 
-<figure/mock_up_login_reindirizzo.eps> [66]
-File: figure/mock_up_riepilogo.eps Graphic file (type eps)
- <figure/mock_up_riepilogo.eps>
+LaTeX Warning: Reference `fig:manutenzione' on page 59 undefined on input line 
+71.
 
-LaTeX Warning: Float too large for page by 67.75961pt on input line 91.
+
+LaTeX Warning: Reference `fig:manutenzione' on page 59 undefined on input line 
+71.
 
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 95--96
+LaTeX Warning: Reference `fig:manutenzione' on page 59 undefined on input line 
+75.
+
+File: figure/mock_up_login_reindirizzo.eps Graphic file (type eps)
+<figure/mock_up_login_reindirizzo.eps>
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+File: figure/mock_up_riepilogo.eps Graphic file (type eps)
+<figure/mock_up_riepilogo.eps>
+
+LaTeX Warning: Float too large for page by 67.75961pt on input line 92.
+
+[59]
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+LaTeX Warning: Reference `' on page 60 undefined on input line 97.
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 97--98
 
  []
 
-[67]
+[60]
 File: figure/mockup_sez_acquisti_pagina_intera.eps Graphic file (type eps)
  <figure/mockup_sez_acquisti_pagina_intera.eps>
 
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
-[68]
+[61] [62]
 File: figure/supporto_senza_modifiche.eps Graphic file (type eps)
- <figure/supporto_senza_modifiche.eps> [69]
+ <figure/supporto_senza_modifiche.eps>
 File: figure/mock_up_home_supporto.eps Graphic file (type eps)
 
 <figure/mock_up_home_supporto.eps>
-Overfull \hbox (15.35416pt too wide) in paragraph at lines 149--150
+Overfull \hbox (15.35416pt too wide) in paragraph at lines 152--153
  [][][] 
  []
 
@@ -1106,22 +1077,26 @@ Overfull \hbox (15.35416pt too wide) in paragraph at lines 149--150
 LaTeX Warning: `!h' float specifier changed to `!ht'.
 
 ))
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 117.
- [70] [71] [72] [73]
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 117.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 123.
+ [63] [64] [65] [66] [67]
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 123.
 
 ("C:\Users\Lombardi Luca\Desktop\ISI\Relazione\bozza-doc.aux")
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 117.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 123.
 Package rerunfilecheck Info: File `bozza-doc.out' has not changed.
-(rerunfilecheck)             Checksum: 4FED8E873C61C5184E128E6E023099B3;1165.
+(rerunfilecheck)             Checksum: 2F49044977579F9962D93C22B2BEF7EF;1097.
+
+
+LaTeX Warning: There were undefined references.
+
  ) 
 Here is how much of TeX's memory you used:
- 10259 strings out of 494020
- 152537 string characters out of 3146497
- 499599 words of memory out of 3000000
- 13218 multiletter control sequences out of 15000+200000
+ 10258 strings out of 494020
+ 151861 string characters out of 3146497
+ 501599 words of memory out of 3000000
+ 13205 multiletter control sequences out of 15000+200000
  23933 words of font info for 59 fonts, out of 3000000 for 9000
- 714 hyphenation exceptions out of 8191
- 44i,12n,47p,1057b,515s stack positions out of 5000i,500n,10000p,200000b,50000s
+ 736 hyphenation exceptions out of 8191
+ 44i,12n,43p,1057b,526s stack positions out of 5000i,500n,10000p,200000b,50000s
 
-Output written on bozza-doc.dvi (75 pages, 277440 bytes).
+Output written on bozza-doc.dvi (69 pages, 261864 bytes).
